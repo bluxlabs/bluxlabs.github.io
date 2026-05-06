@@ -1,4 +1,4 @@
-# Blux‘s official website
+# Blux Inc.‘s official website
 Blux's official website based on Zola blog framework.
 
 [Website](https://bluxlabs.com)
