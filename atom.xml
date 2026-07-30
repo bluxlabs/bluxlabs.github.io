@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Blux Inc.</title>
+    <subtitle>Blux Inc. is dedicated to make reasoning fast and elegant</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://bluxlabs.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://bluxlabs.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-05-07T04:42:33+00:00</updated>
+    <id>https://bluxlabs.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>BluxOS</title>
+        <published>2026-05-07T04:42:33+00:00</published>
+        <updated>2026-05-07T04:42:33+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/bluxos/"/>
+        <id>https://bluxlabs.com/projects/bluxos/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/bluxos/">&lt;p&gt;Our own operating system to run the software we create and to enable distributed storage of scientific research data. It leverages Nix to provide a stable and reproducible environment with a clear declarative configuration model, and includes support for AI agents to automatically generate and test system modules.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;bluxos&#x2F;bluxos.png&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Wire-free Miniscope</title>
+        <published>2025-12-25T12:11:39+00:00</published>
+        <updated>2025-12-25T12:11:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/wirefree-miniscope/"/>
+        <id>https://bluxlabs.com/projects/wirefree-miniscope/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/wirefree-miniscope/">&lt;h1 id=&quot;wire-free-miniscope-ucla-v4&quot;&gt;Wire-free Miniscope (UCLA V4)&lt;&#x2F;h1&gt;
+&lt;p&gt;This is the &lt;strong&gt;UCLA Miniscope V4&lt;&#x2F;strong&gt; — a popular open-source head-mounted miniature microscope designed for calcium imaging in freely behaving animals. It supports both traditional wired setups and wire-free configurations.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Official Links&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;miniscope.org&#x2F;index.php&#x2F;Wire-free_Miniscope&quot;&gt;UCLA Miniscope Official Site&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;miniscope.org&#x2F;index.php&#x2F;Wire-free_Miniscope&quot;&gt;Documentation &amp;amp; GitHub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;complete-component-set-assembly-diagram&quot;&gt;Complete Component Set &amp;amp; Assembly Diagram&lt;&#x2F;h2&gt;
+&lt;p&gt;All core parts of the UCLA Miniscope V4 with clear labeling of every module.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;wire_free_miniscope&#x2F;complete_set_miniscope.jpg&quot; alt=&quot;UCLA Miniscope V4 Complete Component Set and Assembly Diagram&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;rigid-flex-pcb-layout&quot;&gt;Rigid-Flex PCB Layout&lt;&#x2F;h2&gt;
+&lt;p&gt;Detailed view of the main rigid-flex PCB with all functional blocks labeled.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;wire_free_miniscope&#x2F;rigid_flex_pcb.jpg&quot; alt=&quot;UCLA Miniscope V4 Rigid-Flex PCB Layout&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Labeled modules:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Image Sensor&lt;&#x2F;li&gt;
+&lt;li&gt;LED &amp;amp; EWL Drivers&lt;&#x2F;li&gt;
+&lt;li&gt;MCU &amp;amp; BNO055 Sensor&lt;&#x2F;li&gt;
+&lt;li&gt;Serializer &amp;amp; Power&lt;&#x2F;li&gt;
+&lt;li&gt;Expansion Header&lt;&#x2F;li&gt;
+&lt;li&gt;EWL Connection&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;head-mounted-on-freely-moving-animal&quot;&gt;Head-mounted on Freely Moving Animal&lt;&#x2F;h2&gt;
+&lt;p&gt;Example of wire-free &#x2F; head-mounted use with real-time 6-DoF head tracking.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;wire_free_miniscope&#x2F;miniscope_on_shushu.jpg&quot; alt=&quot;Miniscope on freely moving animal with tracking diagram&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;miniature-head-size-palm-view&quot;&gt;Miniature Head Size (Palm View)&lt;&#x2F;h2&gt;
+&lt;p&gt;Real photo showing the compact size of the UCLA-style miniscope head.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;wire_free_miniscope&#x2F;miniscope_on_hand.jpg&quot; alt=&quot;UCLA Miniscope head in hand&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;key-features&quot;&gt;Key Features&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open-source design from UCLA&lt;&#x2F;li&gt;
+&lt;li&gt;Excellent for calcium imaging in freely moving mice and rats&lt;&#x2F;li&gt;
+&lt;li&gt;Supports &lt;strong&gt;wired&lt;&#x2F;strong&gt; and &lt;strong&gt;wire-free&lt;&#x2F;strong&gt; operation&lt;&#x2F;li&gt;
+&lt;li&gt;Compact, lightweight head-mounted design&lt;&#x2F;li&gt;
+&lt;li&gt;Well-documented assembly process and software ecosystem&lt;&#x2F;li&gt;
+&lt;li&gt;High-quality 1-photon fluorescence imaging&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pre-Assembled EEG Headset</title>
+        <published>2025-12-17T10:55:39+00:00</published>
+        <updated>2025-12-17T10:55:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/pre-assembled-helmet/"/>
+        <id>https://bluxlabs.com/projects/pre-assembled-helmet/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/pre-assembled-helmet/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-3.jpg&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-4.jpg&quot; alt=&quot;Sea&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ultracortex Electrode</title>
+        <published>2025-12-17T10:26:39+00:00</published>
+        <updated>2025-12-17T10:26:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/ultracortex-electrodes/"/>
+        <id>https://bluxlabs.com/projects/ultracortex-electrodes/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/ultracortex-electrodes/">&lt;p&gt;The Ultracortex dry electrodes are specifically designed for the OpenBCI Ultracortex headset. Each electrode uses a high-quality &lt;strong&gt;Ag&#x2F;AgCl tetrode&lt;&#x2F;strong&gt; mounted on a spring-buffered PETG structure, delivering stable scalp contact even during head movement.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;ultracortex_electrode&#x2F;electrode_install.jpg&quot; alt=&quot;Electrode installation into the Ultracortex frame&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The modular design allows quick, tool-free replacement. Simply press the blue electrode holder into the frame — the built-in spring mechanism maintains consistent pressure without the need for conductive gel. All connections use standard &lt;strong&gt;2.54 mm Dupont jumper wires&lt;&#x2F;strong&gt;, making maintenance and customization straightforward.&lt;&#x2F;p&gt;
+&lt;p&gt;This electrode system is ideal for long-term dry EEG recordings in research, BCI development, and neuroscience experiments.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BCIMods EEG&#x2F;EMG Devboards</title>
+        <published>2025-12-17T10:11:39+00:00</published>
+        <updated>2025-12-17T10:11:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/bcimods/"/>
+        <id>https://bluxlabs.com/projects/bcimods/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/bcimods/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-3.jpg&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-4.jpg&quot; alt=&quot;Sea&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BCIMods EEG&#x2F;EMG Devboards</title>
+        <published>2025-12-17T10:11:39+00:00</published>
+        <updated>2025-12-17T10:11:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/minidaq/"/>
+        <id>https://bluxlabs.com/projects/minidaq/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/minidaq/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-3.jpg&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-4.jpg&quot; alt=&quot;Sea&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BCIMods EEG&#x2F;EMG Devboards</title>
+        <published>2025-12-17T10:11:39+00:00</published>
+        <updated>2025-12-17T10:11:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/miniscope-sd-daq/"/>
+        <id>https://bluxlabs.com/projects/miniscope-sd-daq/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/miniscope-sd-daq/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-3.jpg&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-4.jpg&quot; alt=&quot;Sea&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>That which does not kill us makes us stronger</title>
+        <published>2018-11-13T12:01:35+00:00</published>
+        <updated>2018-11-13T12:01:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/posts/that-which-does-not-kill-us-makes-us-stronger/"/>
+        <id>https://bluxlabs.com/posts/that-which-does-not-kill-us-makes-us-stronger/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/posts/that-which-does-not-kill-us-makes-us-stronger/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-1.jpg&quot; alt=&quot;Woman with child&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-2.jpg&quot; alt=&quot;Beach&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.&lt;&#x2F;p&gt;
+&lt;p&gt;Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Do what you can, with what you have, where you are</title>
+        <published>2018-11-12T12:01:35+00:00</published>
+        <updated>2018-11-12T12:01:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/posts/do-what-you-can-with-what-you-have-where-you-are/"/>
+        <id>https://bluxlabs.com/posts/do-what-you-can-with-what-you-have-where-you-are/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/posts/do-what-you-can-with-what-you-have-where-you-are/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-1.jpg&quot; alt=&quot;Woman with child&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-2.jpg&quot; alt=&quot;Beach&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.&lt;&#x2F;p&gt;
+&lt;p&gt;Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Strive not to be a success, but rather to be of value</title>
+        <published>2018-11-11T12:01:35+00:00</published>
+        <updated>2018-11-11T12:01:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/posts/strive-not-to-be-a-success-but-rather-to-be-of-value/"/>
+        <id>https://bluxlabs.com/posts/strive-not-to-be-a-success-but-rather-to-be-of-value/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/posts/strive-not-to-be-a-success-but-rather-to-be-of-value/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-1.jpg&quot; alt=&quot;Woman with child&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-2.jpg&quot; alt=&quot;Beach&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.&lt;&#x2F;p&gt;
+&lt;p&gt;Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Life shrinks or expands in proportion to one’s courage</title>
+        <published>2018-11-08T15:01:35+00:00</published>
+        <updated>2018-11-08T15:01:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/posts/life-shrinks-or-expands-in-proportion-to-one-s-courage/"/>
+        <id>https://bluxlabs.com/posts/life-shrinks-or-expands-in-proportion-to-one-s-courage/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/posts/life-shrinks-or-expands-in-proportion-to-one-s-courage/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-1.jpg&quot; alt=&quot;Woman with child&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-2.jpg&quot; alt=&quot;Beach&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.&lt;&#x2F;p&gt;
+&lt;p&gt;Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>You must be the change you wish to see in the world</title>
+        <published>2018-11-06T15:01:35+00:00</published>
+        <updated>2018-11-06T15:01:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/posts/you-must-be-the-change-you-wish-to-see-in-the-world/"/>
+        <id>https://bluxlabs.com/posts/you-must-be-the-change-you-wish-to-see-in-the-world/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/posts/you-must-be-the-change-you-wish-to-see-in-the-world/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-1.jpg&quot; alt=&quot;Woman with child&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-2.jpg&quot; alt=&quot;Beach&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.&lt;&#x2F;p&gt;
+&lt;p&gt;Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Believe and act as if it were impossible to fail</title>
+        <published>2018-11-05T15:01:35+00:00</published>
+        <updated>2018-11-05T15:01:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/posts/believe-and-act-as-if-it-were-impossible-to-fail/"/>
+        <id>https://bluxlabs.com/posts/believe-and-act-as-if-it-were-impossible-to-fail/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/posts/believe-and-act-as-if-it-were-impossible-to-fail/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-1.jpg&quot; alt=&quot;Woman with child&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-2.jpg&quot; alt=&quot;Beach&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.&lt;&#x2F;p&gt;
+&lt;p&gt;Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The way I see it, every life is a pile of good things</title>
+        <published>2018-10-31T15:01:35+00:00</published>
+        <updated>2018-10-31T15:01:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/posts/the-way-i-see-it-every-life-is-a-pile-of-good-things/"/>
+        <id>https://bluxlabs.com/posts/the-way-i-see-it-every-life-is-a-pile-of-good-things/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/posts/the-way-i-see-it-every-life-is-a-pile-of-good-things/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-1.jpg&quot; alt=&quot;Woman with child&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-2.jpg&quot; alt=&quot;Beach&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.&lt;&#x2F;p&gt;
+&lt;p&gt;Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Everything has beauty, but not everyone can see</title>
+        <published>2018-05-29T18:05:55+00:00</published>
+        <updated>2018-05-29T18:05:55+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/posts/everything-has-beauty-but-not-everyone-can-see/"/>
+        <id>https://bluxlabs.com/posts/everything-has-beauty-but-not-everyone-can-see/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/posts/everything-has-beauty-but-not-everyone-can-see/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-1.jpg&quot; alt=&quot;Woman with child&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-2.jpg&quot; alt=&quot;Beach&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.&lt;&#x2F;p&gt;
+&lt;p&gt;Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>It is never too late to be what you might have been</title>
+        <published>2018-04-24T15:01:35+00:00</published>
+        <updated>2018-04-24T15:01:35+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/posts/it-is-never-too-late-to-be-what-you-might-have-been/"/>
+        <id>https://bluxlabs.com/posts/it-is-never-too-late-to-be-what-you-might-have-been/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/posts/it-is-never-too-late-to-be-what-you-might-have-been/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam. Cur post Tarentum ad Archytam. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, reman voluptatem amico percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit. Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. Natura sic ab iis investigata est, ut nulla pars caelo, mari, terra, ut poëtice loquar, praetermissa sit. Eadem nunc means adversum te oratio est. Mihi quidem Homerus huius modi quiddam vidisse videatur in nis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-1.jpg&quot; alt=&quot;Woman with child&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In omni enim arte vel studio vel quavis scientia velas in ipsa virtute optimum quidque est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deindestum etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitned in fructum habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sintero conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles rarissimum servari tinere.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. I am quod insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe oratio, defecerit. Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit. Quae quidem sapientes sequuntur duce natura tamquam videntes. Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis cantibus arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis disseretur voluptatibus. Utram tandem linguam nescio. Quod dicit Epicurus voluptate terra perfectio.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-2.jpg&quot; alt=&quot;Beach&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim praeter tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed ista animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur disputari sine potissimum.&lt;&#x2F;p&gt;
+&lt;p&gt;Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit. Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investiga.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Blux Inc. - Linux</title>
+    <subtitle>Blux Inc. is dedicated to make reasoning fast and elegant</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://bluxlabs.com/tags/linux/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://bluxlabs.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-05-07T04:42:33+00:00</updated>
+    <id>https://bluxlabs.com/tags/linux/atom.xml</id>
+    <entry xml:lang="en">
+        <title>BluxOS</title>
+        <published>2026-05-07T04:42:33+00:00</published>
+        <updated>2026-05-07T04:42:33+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/bluxos/"/>
+        <id>https://bluxlabs.com/projects/bluxos/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/bluxos/">&lt;p&gt;Our own operating system to run the software we create and to enable distributed storage of scientific research data. It leverages Nix to provide a stable and reproducible environment with a clear declarative configuration model, and includes support for AI agents to automatically generate and test system modules.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;bluxos&#x2F;bluxos.png&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

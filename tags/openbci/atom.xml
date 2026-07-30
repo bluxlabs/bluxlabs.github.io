@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Blux Inc. - OpenBCI</title>
+    <subtitle>Blux Inc. is dedicated to make reasoning fast and elegant</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://bluxlabs.com/tags/openbci/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://bluxlabs.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-12-17T10:55:39+00:00</updated>
+    <id>https://bluxlabs.com/tags/openbci/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Pre-Assembled EEG Headset</title>
+        <published>2025-12-17T10:55:39+00:00</published>
+        <updated>2025-12-17T10:55:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/pre-assembled-helmet/"/>
+        <id>https://bluxlabs.com/projects/pre-assembled-helmet/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/pre-assembled-helmet/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-3.jpg&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-4.jpg&quot; alt=&quot;Sea&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Ultracortex Electrode</title>
+        <published>2025-12-17T10:26:39+00:00</published>
+        <updated>2025-12-17T10:26:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/ultracortex-electrodes/"/>
+        <id>https://bluxlabs.com/projects/ultracortex-electrodes/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/ultracortex-electrodes/">&lt;p&gt;The Ultracortex dry electrodes are specifically designed for the OpenBCI Ultracortex headset. Each electrode uses a high-quality &lt;strong&gt;Ag&#x2F;AgCl tetrode&lt;&#x2F;strong&gt; mounted on a spring-buffered PETG structure, delivering stable scalp contact even during head movement.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;ultracortex_electrode&#x2F;electrode_install.jpg&quot; alt=&quot;Electrode installation into the Ultracortex frame&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The modular design allows quick, tool-free replacement. Simply press the blue electrode holder into the frame — the built-in spring mechanism maintains consistent pressure without the need for conductive gel. All connections use standard &lt;strong&gt;2.54 mm Dupont jumper wires&lt;&#x2F;strong&gt;, making maintenance and customization straightforward.&lt;&#x2F;p&gt;
+&lt;p&gt;This electrode system is ideal for long-term dry EEG recordings in research, BCI development, and neuroscience experiments.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BCIMods EEG&#x2F;EMG Devboards</title>
+        <published>2025-12-17T10:11:39+00:00</published>
+        <updated>2025-12-17T10:11:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/bcimods/"/>
+        <id>https://bluxlabs.com/projects/bcimods/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/bcimods/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-3.jpg&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-4.jpg&quot; alt=&quot;Sea&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BCIMods EEG&#x2F;EMG Devboards</title>
+        <published>2025-12-17T10:11:39+00:00</published>
+        <updated>2025-12-17T10:11:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/minidaq/"/>
+        <id>https://bluxlabs.com/projects/minidaq/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/minidaq/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-3.jpg&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-4.jpg&quot; alt=&quot;Sea&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BCIMods EEG&#x2F;EMG Devboards</title>
+        <published>2025-12-17T10:11:39+00:00</published>
+        <updated>2025-12-17T10:11:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/miniscope-sd-daq/"/>
+        <id>https://bluxlabs.com/projects/miniscope-sd-daq/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/miniscope-sd-daq/">&lt;p&gt;In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-3.jpg&quot; alt=&quot;Palm trees&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Praeteritis, inquit, gaudeo. Praeteritis, inquit, gaudeo. Quod, inquit, quamquam voluptatibus quibusdam est saepe iucundius, tamen expetitur propter voluptatem. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Non quaeritur autem quid naturae tuae consentaneum sit, sed quid disciplinae. Ita ne hoc quidem modo paria peccata sunt. Ita prorsus, inquam; Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius. Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;image-example-4.jpg&quot; alt=&quot;Sea&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Defecerit Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu. Sunt omnia Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles servari.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

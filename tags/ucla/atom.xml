@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Blux Inc. - UCLA</title>
+    <subtitle>Blux Inc. is dedicated to make reasoning fast and elegant</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://bluxlabs.com/tags/ucla/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://bluxlabs.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-12-25T12:11:39+00:00</updated>
+    <id>https://bluxlabs.com/tags/ucla/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Wire-free Miniscope</title>
+        <published>2025-12-25T12:11:39+00:00</published>
+        <updated>2025-12-25T12:11:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Sol
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://bluxlabs.com/projects/wirefree-miniscope/"/>
+        <id>https://bluxlabs.com/projects/wirefree-miniscope/</id>
+        
+        <content type="html" xml:base="https://bluxlabs.com/projects/wirefree-miniscope/">&lt;h1 id=&quot;wire-free-miniscope-ucla-v4&quot;&gt;Wire-free Miniscope (UCLA V4)&lt;&#x2F;h1&gt;
+&lt;p&gt;This is the &lt;strong&gt;UCLA Miniscope V4&lt;&#x2F;strong&gt; — a popular open-source head-mounted miniature microscope designed for calcium imaging in freely behaving animals. It supports both traditional wired setups and wire-free configurations.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Official Links&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;miniscope.org&#x2F;index.php&#x2F;Wire-free_Miniscope&quot;&gt;UCLA Miniscope Official Site&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;miniscope.org&#x2F;index.php&#x2F;Wire-free_Miniscope&quot;&gt;Documentation &amp;amp; GitHub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;complete-component-set-assembly-diagram&quot;&gt;Complete Component Set &amp;amp; Assembly Diagram&lt;&#x2F;h2&gt;
+&lt;p&gt;All core parts of the UCLA Miniscope V4 with clear labeling of every module.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;wire_free_miniscope&#x2F;complete_set_miniscope.jpg&quot; alt=&quot;UCLA Miniscope V4 Complete Component Set and Assembly Diagram&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;rigid-flex-pcb-layout&quot;&gt;Rigid-Flex PCB Layout&lt;&#x2F;h2&gt;
+&lt;p&gt;Detailed view of the main rigid-flex PCB with all functional blocks labeled.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;wire_free_miniscope&#x2F;rigid_flex_pcb.jpg&quot; alt=&quot;UCLA Miniscope V4 Rigid-Flex PCB Layout&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Labeled modules:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Image Sensor&lt;&#x2F;li&gt;
+&lt;li&gt;LED &amp;amp; EWL Drivers&lt;&#x2F;li&gt;
+&lt;li&gt;MCU &amp;amp; BNO055 Sensor&lt;&#x2F;li&gt;
+&lt;li&gt;Serializer &amp;amp; Power&lt;&#x2F;li&gt;
+&lt;li&gt;Expansion Header&lt;&#x2F;li&gt;
+&lt;li&gt;EWL Connection&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;head-mounted-on-freely-moving-animal&quot;&gt;Head-mounted on Freely Moving Animal&lt;&#x2F;h2&gt;
+&lt;p&gt;Example of wire-free &#x2F; head-mounted use with real-time 6-DoF head tracking.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;wire_free_miniscope&#x2F;miniscope_on_shushu.jpg&quot; alt=&quot;Miniscope on freely moving animal with tracking diagram&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;miniature-head-size-palm-view&quot;&gt;Miniature Head Size (Palm View)&lt;&#x2F;h2&gt;
+&lt;p&gt;Real photo showing the compact size of the UCLA-style miniscope head.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;assets&#x2F;products&#x2F;wire_free_miniscope&#x2F;miniscope_on_hand.jpg&quot; alt=&quot;UCLA Miniscope head in hand&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;key-features&quot;&gt;Key Features&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open-source design from UCLA&lt;&#x2F;li&gt;
+&lt;li&gt;Excellent for calcium imaging in freely moving mice and rats&lt;&#x2F;li&gt;
+&lt;li&gt;Supports &lt;strong&gt;wired&lt;&#x2F;strong&gt; and &lt;strong&gt;wire-free&lt;&#x2F;strong&gt; operation&lt;&#x2F;li&gt;
+&lt;li&gt;Compact, lightweight head-mounted design&lt;&#x2F;li&gt;
+&lt;li&gt;Well-documented assembly process and software ecosystem&lt;&#x2F;li&gt;
+&lt;li&gt;High-quality 1-photon fluorescence imaging&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
