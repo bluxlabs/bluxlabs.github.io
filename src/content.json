@@ -1,0 +1,160 @@
+{
+  "people": [
+    {
+      "name": "Sol Wang",
+      "role": "CEO",
+      "bio": "Founder and CEO of Blux Inc, Researcher and student on cognitive neuroscience at UC Irvine.\n\nBelieve in the rule of math and elegance, never set a border of thinking unless something hits a mathematical or physical limit.\n\nAgnostic rather than atheist and think god (If exists) should be a genius mathematician and indie dev that gives its player the same permission of creating as the developer.\n\nHobbies: NixOS; Math; Indie Games; Anime & Manga; Origami; Optimism Beef Cooking.",
+      "portrait": "/assets/people/sol-wang.webp"
+    },
+    {
+      "name": "Lucas Zhuang",
+      "role": "COO",
+      "bio": "Lucas Zhuang is COO of Blux, where he leads the development of Blux Research Agent, the agentic layer for automating scientific data workflows. He previously worked as an LLM Research Engineer at Yahoo Finance, building production-oriented AI agent systems for financial analysis. His work has also included multi-agent systems research and end-to-end software for coordinating AI-driven workflows. He is building Blux to reduce the manual data preparation, tool coordination, and analysis work that slows experimental science.",
+      "portrait": "/assets/people/lucas-zhuang.webp"
+    },
+    {
+      "name": "Jack Zhang",
+      "role": "CFO",
+      "bio": "Jack Zhang is CFO and an investor in Blux Inc. He manages company finances, tracks expenses and cash flow, and prepares regular financial reports for the company and its investors. A third-year Economics student at the University of California, Irvine, he works across the financial and business sides of the company.",
+      "portrait": "/assets/people/jack-zhang.webp"
+    },
+    {
+      "name": "Albert Zhang",
+      "role": "CAO",
+      "bio": "Albert is the CAO of Blux, where he manages core server operations, physical product design, and global supply chain logistics. His work spans the complete hardware lifecycle, developing early conceptual prototypes, constructing physical builds, and coordinating end-to-end manufacturing and component sourcing. He is building Blux’s operational foundation to ensure the seamless integration of robust digital infrastructure with scalable hardware production, accelerating the deployment of complex systems."
+    },
+    {
+      "name": "Hancheng Tong",
+      "role": "CTO",
+      "bio": "I am a co-founder and a researcher in Professor Xu Zhiqing's depression-mechanisms lab at the School of Basic Medical Sciences, Capital Medical University, currently working on miniscope performance upgrades, a digital-twin platform, an autoresearch agent, and whole-brain simulation based on multi-compartment Hodgkin-Huxley models. I co-founded the company for three reasons: to end academic gatekeeping through paradigm shift, to enhance my own and others' cognition and drive humanity toward recursive self-improvement (RSI), and to build a post-scarcity society.",
+      "portrait": "/assets/people/hancheng-tong.webp"
+    },
+    {
+      "name": "Yiyu Deng",
+      "role": "CSO",
+      "bio": "Yiyu Deng is CSO of Blux Inc., where he owns the scientific roadmap and will lead wet-lab R&D from animal studies toward human trials for brain-computer interfaces. He is completing a PhD in biomedical engineering at UChicago, where he built microfluidic organ-on-chip systems for high-throughput drug screening and developed spatial multi-omics methods for mapping protein interactions across tumor tissue. He came to neurotechnology because brain research scales only when experiments are standardized, automated, and closed-loop enough for results to improve the next round.",
+      "portrait": "/assets/people/yiyu-deng.webp"
+    },
+    {
+      "name": "Ziyan Shi",
+      "role": "Full-Stack Engineer",
+      "bio": "Ziyan Shi is a full-stack engineer at Blux, developing behavioral analysis software and real-time research infrastructure. He is a PhD student in the joint program between Westlake University and the Shenzhen Medical Academy of Research and Translation. He has built mouse tracking pipelines, prototyped EEG-based robotic arm control, and coauthored a review on AI for enzyme engineering as joint first author. He works on neurotechnology to understand how the brain forms memories and to develop tools linking neural activity with behavior.",
+      "portrait": "/assets/people/ziyan-shi.webp"
+    },
+    {
+      "name": "Miki Li",
+      "role": "Full-Stack Engineer",
+      "bio": "Miki Li is a Full-Stack Engineer developing software and hardware for neurobehavioral experiments and brain–machine interfaces. They completed their master’s degree requirements in biomedical engineering at the University of California, Irvine. They built Brainfast, a brain-image registration and cell-counting tool, some of whose functionality was incorporated into a separate project by UCI’s Xu Lab. They also developed an eight-channel EEG platform integrating signal acquisition, motor-imagery decoding, and application control. They aim to make neuroscience tools more accessible and useful for studying human behavior and performance.",
+      "portrait": "/assets/people/miki-li.webp"
+    }
+  ],
+  "statements": [
+    {
+      "author": "Hancheng Tong",
+      "title": "Make Cognitive Enhancement a Public Road",
+      "intro": "Machine intelligence is compounding exponentially while human cognitive enhancement has barely begun. I argue that enhancement must happen within people, not only in machines, and that how its gains are distributed is the defining question of this century: cognitive advantage, once monopolized, hardens into permanent power. Openness and oversight fail unless people are smart enough to use them, so making more people smarter is a precondition for keeping power in check. My work aims to build the gateways of cognitive enhancement into public roads, on the way to a post-scarcity, Kardashev-scale future.",
+      "body": [
+        "Human civilization happens to find itself in the lead-up to the technological singularity. Machine intelligence is rising exponentially, while technologies for enhancing human cognition have only just begun and are advancing with difficulty — and together these two forces will determine how civilization develops. My vision is for more of that enhancement to happen within humans ourselves. One approach that particularly interests me is high-bandwidth brain–computer interfaces, which would let the brain call on external compute, so that every person keeps a place in the intelligence age. I want to walk this path myself and become one of the first human-derived superintelligences.",
+        "From a personal standpoint, of course I would like to become a superintelligence earlier than others. But any rational person facing the same situation should push for collective improvement rather than drag themselves into a battle-royale-style vicious competition: the expected payoff of universal cooperation is far higher than a zero-sum game with only a handful of winners.",
+        "How the gains from this transformation are distributed is, in my view, the biggest question besides technical feasibility. If intelligence-enhancement technology is monopolized by a small number of people and institutions, cognitive advantage will harden into power, and the world will slide toward permanent rule of the many by the few — the Dark Enlightenment scenario. This stratification is already taking shape: restricting access to state-of-the-art models by users' region and language, in the name of safety, is in essence creating a cognitive privileged class, and we must not repeat that mistake. The standard answer to runaway power is openness and oversight, but oversight has a precondition: the people watching must have enough cognitive capacity. If all information is public but no one can understand it, it might as well never have been made public. Making more people smarter is a necessary condition for keeping power in check.",
+        "And the key to making more people smarter may be precisely the interface. Today's frontier models hold richer knowledge than 99% of people, yet most still cannot truly make good use of them, because the bandwidth between the human brain and external intelligence is too narrow and too noisy: natural-language interfaces distort the signal, and critical information is already degraded before it ever reaches the user. Whoever controls this bandwidth in the future controls the distribution of cognitive enhancement.",
+        "I choose to stand at this gateway: to push the read-write capability and safety of brain–computer interfaces to clinical viability, then onward to broader settings, until they become a service available to everyone. Universal access will not arrive on its own; someone has to build the gateway into a public road.",
+        "The resources required for population-wide enhancement are planetary in scale, and the long-term outlook for energy and compute points to Dyson swarms — to the scaled use of stellar energy. Moreover, even if machine intelligence matures first, it can become the foundation on which humans continue to advance. If the distribution problem above can be solved, whatever matures first can genuinely pull the latecomers along, ultimately toward a post-scarcity society.",
+        "Looking at still longer timescales: if everyone is to share the abundance brought by the technological singularity, the resources required far exceed our current scale — but the potential is also far greater than we assume. Global proven oil reserves are about 1.8 trillion barrels, whose total combustion energy is on the order of 10²² joules. The Sun delivers about 1.7×10¹⁷ watts to Earth, accumulating 1.5×10²² joules per day. In other words, all the oil humanity has ever proven — from the origins of Babylonian civilization five thousand years ago to 2026 — burned in full, would release only about two-thirds of the energy the Sun sends to Earth in a single day. Instead of scheming against one another over these crumbs, directing our effort toward self-replicating factories and even Dyson swarms — opening up planetary- and stellar-scale resource inlets, becoming a Kardashev Type I or even Type II civilization — is the direction worth taking.",
+        "This is a road measured in centuries, and the most important thing along it is to keep everyone alive until the day the technology delivers. Death should become optional; no one should be forced to leave this world. We cannot build this future alone — we are one piece of the infrastructure leading to it. Doing our own part well is all we can do right now."
+      ]
+    },
+    {
+      "author": "Lucas Zhuang",
+      "title": "Saving Human Intelligence for Discovery",
+      "intro": "I believe researchers should spend their time on ideas, creativity, judgment, and making decisions, instead of repeatedly dealing with code, infrastructure, data cleaning, and disconnected tools. With AI and agents becoming capable of doing much more of this work, I think we have a chance to change how research is done. AI should help us execute and validate ideas, while humans remain responsible for choosing the direction, interpreting the results, and deciding what the research means.",
+      "body": [
+        "I have always felt that human intelligence should be saved for creativity.",
+        "This became especially clear to me through my own research experience. When I was doing research, a surprisingly large part of my time was not actually spent thinking about the research problem. I was reading undocumented code, trying to understand an existing codebase, fixing environments, setting up infrastructure, debugging pipelines, organizing data, and figuring out how different tools were supposed to work together.",
+        "Of course, all of this work was necessary. Without it, the experiment could not run. But I kept feeling that the balance was wrong.",
+        "The part I actually cared about was thinking about the approach. What can we try? Why did this result happen? What if we change this assumption? Is there a better way to solve the problem?",
+        "That, to me, is the point of research.",
+        "But before I could test many of those ideas, there was often a long list of engineering and operational work that had to be finished first. If that work took three days, then those were three days in which I was spending most of my attention on making the research possible, instead of actually doing the creative part of the research.",
+        "I think modern AI, especially AI agents, gives us a chance to change this.",
+        "If an agent can understand the research context, work with the data, use the tools, run the pipeline, keep track of what happened, and help validate the result, then the researcher does not need to personally handle every intermediate step.",
+        "This is especially obvious in the type of biological and behavioral research we are starting with at Blux.",
+        "For example, a behavioral neuroscience experiment may produce hours of video. Researchers then need to organize those videos, clean the data, identify useful frames, manually label body keypoints, train a model, run the analysis, inspect the result, and manage all of the files produced along the way.",
+        "A lot of intelligence is being spent on work that is necessary, but not necessarily where human intelligence is most valuable.",
+        "I do not think the goal should be to remove the human researcher.",
+        "In the end, research still needs human judgment. A person has to decide what question is worth asking. A person chooses the direction of the work. A person decides whether a result is meaningful, whether the evidence is convincing, and what should be tried next. And if the research carries that person's name, I think that person also needs to be responsible for those decisions and conclusions.",
+        "So the way I think about AI in research is not that AI replaces the scientist.",
+        "AI should take away more of the execution burden around the scientist.",
+        "The human can focus on:",
+        "What should we ask?",
+        "What should we try?",
+        "What does this result mean?",
+        "What should we do next?",
+        "And the AI can help with the work required in between those decisions.",
+        "That is also how I think about Blux.",
+        "We are starting with behavioral neuroscience because the problem is very visible there. Researchers deal with large amounts of video data, manual annotation, analysis pipelines, and research infrastructure. But I do not think this problem is unique to neuroscience.",
+        "The same pattern exists across biological science, and in many other areas of science as well.",
+        "My long-term hope is that Blux can gradually reduce the amount of operational work between a researcher's idea and the evidence needed to test it.",
+        "The researcher should still decide where to go.",
+        "We just want to make it much easier to get there."
+      ]
+    },
+    {
+      "author": "Miki Li",
+      "title": "Making Imagined Worlds Possible",
+      "intro": "I want to explore non-invasive brain–computer interfaces that help people express themselves more freely and experience worlds they can currently only imagine. This ambition brought me into conversation with Sol and eventually to Blux. As I join the team, I hope to connect my background in experimental research and engineering with a shared commitment to testing ideas, supporting one another, and turning long-term ambitions into practical work.",
+      "body": [
+        "My thoughts often move faster than my words. An idea can already be taking shape in my mind while I am still trying to explain its beginning. That gap has made me wonder how much of what we imagine never finds a satisfying way into the world. Could we have more ways to express ourselves? Could something that exists only in someone’s imagination become a place they can experience and share?",
+        "These questions are part of what draws me to brain–computer interfaces. My long-term ambition is to explore fully immersive virtual reality: experiences that go beyond looking at a screen and move toward recreating the full range of sensation within a virtual world. I want to investigate how those experiences might become possible without requiring a physical object or an explicit bodily action to correspond to every virtual interaction.",
+        "I want to pursue this through non-invasive approaches. I do not want people to have to undergo surgery to access these possibilities, and I hope the opportunity to try them can become more accessible. I believe there is potential to pursue greater precision in non-invasive BCI. That belief gives me a reason to keep working, but it is also something I need to examine through experiments. Reconstructing rich sensory experiences remains a long-term research ambition, rather than a capability I can claim to have achieved.",
+        "My experience so far has brought me into contact with both biological research and engineering. During my biomedical engineering training at the University of California, Irvine, I worked with brain tissue, fluorescence imaging, and whole-brain datasets. I built Brainfast, a brain-image registration and cell-counting tool, some of whose functionality was incorporated into a separate project by UCI’s Xu Lab. I also developed an eight-channel EEG platform integrating signal acquisition, motor-imagery decoding, and application control. Working across these areas has made me want to understand both what an experiment needs and what it takes to build the tools that support it.",
+        "Sol and I first connected through our shared interest in BCI. I wanted that connection to become an opportunity to support each other over the course of our careers and research. This is why I chose to bring my technical experience to Blux: I want to contribute to work we care about and help create an environment in which we can take our ideas further together.",
+        "I hope to help Sol build a team with a strong sense of initiative. I want people to bring questions they genuinely care about, take responsibility for moving their research forward, and help others do the same. Each person’s work should have room to make a meaningful contribution. By sharing knowledge, testing one another’s ideas, and combining different skills, I hope we can give projects a chance to develop beyond what any of us could accomplish alone.",
+        "I have joined Blux as a Full-Stack Engineer. My initial work includes the company website, with planned contributions to cricket dispenser hardware, the Bevy + Rx engine, and Rust-based BCI data acquisition and preprocessing. I want to learn from the team’s existing work, understand the experimental needs behind these systems, and follow through on the responsibilities I take on.",
+        "Alongside this work, I will continue developing NerveGear, a personal BCI project I began before joining Blux. I would welcome the opportunity to test and refine it with interested colleagues and other collaborators. I hope those exchanges will help us discover useful connections between our research interests and identify ideas worth exploring together.",
+        "Ultimately, I want people to have more freedom to express what they think and create what they imagine. Fully immersive VR is one possibility I want to work toward, but the motivation behind it is personal: I hope technology can give people more choices about the lives and experiences they want to pursue. I would like our work to help people find their own imagined worlds—and, one day, make those worlds places they can truly experience."
+      ]
+    },
+    {
+      "author": "Sol Wang",
+      "title": "Companeogenesis",
+      "intro": "Typical companies were essentially a bunch of function packages built by modularized manpower and for other companies or customers to call to execute something, while typical labs were essentially begging organizations that take money from sponsors and do things that won’t create sustainable economical flow. Those two systems require each other to work as a whole but are shitty on efficiency when doing so, but now the era of AI and automation gives us more possibilities on building a new shape of organization that does real great work with high efficiency by combining the best commanders and best executors.",
+      "body": [
+        "In the future when AI, computers and robots take over all the repeating works, there are barely any reason to not optimizing or create something if we know what's theoretically right",
+        "Thus, the company will be the accelerator that doesn't create the new companies but accelerates whatever the members does, a member won't need to leave and get the investment from the accelerator or big tech and deal with all the messy stuff to make a new thing, instead, the company itself serves the tool of changing the world as an inner product for the members.",
+        "The organization will include:",
+        "World changers",
+        "Servants who serve those world changers that do universal things to avoid repeating work",
+        "Tools of those world changers，ideally purchased or chosen by the first type, including assets and very few and the best tool-like people that's still won't be replaced by AI and also will become the second type",
+        "That's basically users, an operating system and packages, to be simpler, the whole thing is users and an operating system of the world with the required tools, and permission goes to those who know and discover.",
+        "No more repeat work and unnecessary borders for the pioneers, explore and optimize everything to the physical limit, and so will they courage the rest member to become a part of them, and they will define the new type of humankind",
+        "The real assets of a company is their taste, hunger, and how fast they could turn the taste and hunger into the real impact of the world without disturbing the world-changers and conquerors. This system itself is also a world-changing way to do a company."
+      ]
+    },
+    {
+      "author": "Yiyu Deng",
+      "title": "Consciousness: Ultimate Measurement of Existence",
+      "intro": "The ability to notice self as existence is the magic of our brain’s physical structure. That makes consciousness a measurement problem that we lack the instruments to scale up yet. With AI now a second carrier of information, what means self and how far it can be extended have become urgent. We are here to supply what that takes: throughput, open access, and an optical interface to the whole brain.",
+      "body": [
+        "When I look at the stars I come back to the same question: what is existence, and does it mean anything? One answer is that existence is already the whole of its own meaning. Another is that it means nothing until something notices it and assigns meaning. I think the second makes the first true, and the reason has to do with how information persists.",
+        "The stars were here long before life, evolving under physical law with no way to choose the process. What arrives with life is not choice but tension, because no organism can avoid mutation and none gives up a fraction of the information it carries without cost; that information is its entire self. So it holds on to as much of itself as it can and survives into the next generation, until across the whole of evolution it has become something else, revised past recognition. I do not find this sad. It is the reason anything flourishes, and we are no exception: a system insisting on its own information and revising itself to continue.",
+        "Self-awareness is what happens when one of these systems becomes complex enough to observe the flow it belongs to: we can describe our own existence, fear the disappearance of our own information, and work to extend it by deliberately changing ourselves and the world. Once a system can ask why it experiences anything, the structure producing that experience becomes the most urgent thing it could study, and that structure is the brain. Here the question stops being philosophy and becomes a measurement problem. What is the topology of conscious experience, its actual shape as a physical thing? I believe it has a physical answer, and that we lack the instruments to reach it.",
+        "The timing matters, because carbon-based life took four billion years to produce us and AI arrived within a few decades: a second substrate on which information can be carried. I do not think it will replace us. It is one more link in the same process, and the step I believe we take is to merge with it. Would we still be human? I think not, and there was no such thing as humanity before humanity either; that is how evolution happens. Fear of dissolution, and the will to resist it, is the most powerful thing self-awareness has given us. It also settles the question I opened with: the continuation of that awareness is our meaning, and it is what lets us assign meaning at all.",
+        "None of this is settled by argument but by data. The field is not short of good questions or capable people; it is short of throughput, because experiments are slow, expensive, hand-operated, and concentrated in a few institutions. Blux Inc. exists because the split between academic and industrial neurobiology costs the field more than it returns, and because research should not be a luxury, a degree should not be a hard gate, and funding should not be what stops a good idea.",
+        "In practice that means two platforms: a standardized physical one for running experiments, and an online one for designing and operating them virtually, built to push human operating cost as low as it can go. Together they make research in the cloud possible. Whoever you are, wherever you live, whatever your credentials, you can reach the platform and design your own experiment, and the strongest ideas we may fund and run in our own facility. Because every experiment runs the same way, the data accumulates instead of scattering, which is what a scaling law needs: data of one kind, in quantity.",
+        "All of it serves the same end: more experiments, more data, better decoding and simulation of neural activity, from animals to humans and into clinical research. That accumulation carries us toward an optical brain-computer interface that reads and writes across the whole brain. With that in hand we could begin to say what the topology of consciousness is and how far a self can be extended. Then we will think again about what a human is, what existence is, and, if a self can be extended that far, where the next step, and the last, might take us."
+      ]
+    },
+    {
+      "author": "Ziyan Shi",
+      "title": "Building the Tools to Understand Memory",
+      "intro": "I want to understand how experience becomes memory, and whether aspects of what we remember could one day be preserved and revisited. I believe this requires tools that connect neural activity, behavior, and experimental interventions over time. As I begin doctoral training while building research systems at Blux, my focus is on making those connections reliable enough to test ideas about memory. Engineering is how I can begin turning that ambition into experiments.",
+      "body": [
+        "My interest in neuroscience starts with a question I have carried for years: could we preserve something of an experience and return to it later? I want to understand how an event becomes a memory, how that memory changes, and what makes remembering feel like returning to a moment in our own lives. This is the question behind my interest in brain interfaces.",
+        "My background in AI and engineering gives me a practical way into this problem. At Blux, I have worked on mouse tracking, research software infrastructure, and an EEG prototype for robotic arm control. These projects bring me into contact with the details that an experiment depends on: what a camera actually captures, whether two streams share a clock, how an algorithm handles a lost target, and whether a result can be reproduced. I see those details as part of the scientific work.",
+        "As I begin my doctoral training, I want to connect this engineering experience with experiments on learning and memory. My starting point is to follow how neural activity and behavior change as an animal learns and later uses what it has learned. I want models that predict behavior in new recording sessions and experiments that test which neural processes contribute to those changes. That means stating what I expect an intervention to do, measuring what happens, and revising the explanation when the results disagree.",
+        "At Blux, I want to help build the systems that make this work practical: synchronized recording, reliable behavioral measurements, and software that can use incoming data to guide an experiment. I see a useful digital twin as a model that stays accountable to the physical system it represents. Its value should come from predictions that can be checked and updated through further measurements.",
+        "The possibility of preserving and revisiting aspects of memory remains my long-term motivation. The next steps are concrete: track behavior reliably, connect it to neural measurements, and help design an experiment that can resolve a specific uncertainty. I want to build tools that let researchers ask more precise questions about the brain, and use what I learn from building them to become a better scientist."
+      ]
+    }
+  ]
+}

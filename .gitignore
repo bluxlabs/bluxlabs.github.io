@@ -1,2 +1,8 @@
-public/
-.DS_Store
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.preview/
+.recording-browsers/
+review/video-raw/
