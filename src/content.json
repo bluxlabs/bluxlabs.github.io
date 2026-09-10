@@ -21,7 +21,8 @@
     {
       "name": "Albert Zhang",
       "role": "CAO",
-      "bio": "Albert is the CAO of Blux, where he manages core server operations, physical product design, and global supply chain logistics. His work spans the complete hardware lifecycle, developing early conceptual prototypes, constructing physical builds, and coordinating end-to-end manufacturing and component sourcing. He is building Blux’s operational foundation to ensure the seamless integration of robust digital infrastructure with scalable hardware production, accelerating the deployment of complex systems."
+      "bio": "Albert is the CAO of Blux, where he manages core server operations, physical product design, and global supply chain logistics. His work spans the complete hardware lifecycle, developing early conceptual prototypes, constructing physical builds, and coordinating end-to-end manufacturing and component sourcing. He is building Blux’s operational foundation to ensure the seamless integration of robust digital infrastructure with scalable hardware production, accelerating the deployment of complex systems.",
+      "portrait": "/assets/people/albert-zhang.jpg"
     },
     {
       "name": "Hancheng Tong",
