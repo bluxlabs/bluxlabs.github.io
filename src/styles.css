@@ -117,3 +117,15 @@ header{top:0;left:0;right:0}
 }
 
 @media(max-width:800px){.mobile-spatial-slogan{top:calc(100vw * 180 / 390)}.mobile-spatial-slogan h1{font-size:9.7vw;margin-bottom:3vw}}
+
+/* Sol's hidden sunshine: ten consecutive taps, then a gentle six-second glow. */
+.team-portrait-frame{position:relative;isolation:isolate;flex-shrink:0;margin-bottom:26px}.team-portrait-frame .portrait{margin-bottom:0;position:relative;z-index:1}
+.sol-name{font:inherit;letter-spacing:inherit;color:inherit;background:none;border:0;padding:0;text-align:left;touch-action:manipulation;user-select:none;-webkit-user-select:none}
+.team-portrait-frame::before,.team-portrait-frame::after{content:'';position:absolute;pointer-events:none;opacity:0}
+.team-portrait-frame::before{inset:-2px;border:2px solid #ffe7a0;box-shadow:0 0 12px #ffd15b,0 0 35px #ffbd3f99,0 0 70px #ffac3533;z-index:2}
+.team-portrait-frame::after{inset:-24px;padding:24px;background:repeating-conic-gradient(from 0deg,#ffd66e00 0deg 9deg,#ffd66e99 10deg 12deg,#ffd66e00 14deg 24deg);mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);mask-composite:exclude;-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;filter:blur(2px);z-index:0}
+.team-portrait-frame.sunlit::before{animation:sol-sunlight 6s ease-in-out both}.team-portrait-frame.sunlit::after{animation:sol-sunrays 6s ease-in-out both}
+@keyframes sol-sunlight{0%{opacity:0}15%,65%{opacity:1}100%{opacity:0}}
+@keyframes sol-sunrays{0%{opacity:0;transform:scale(.94)}20%{opacity:.8}65%{opacity:.65}100%{opacity:0;transform:scale(1.06)}}
+@media(max-width:800px){.team-portrait-frame{margin-bottom:20px}}
+@media(prefers-reduced-motion:reduce){.team-portrait-frame.sunlit::before{animation:none!important;opacity:1}.team-portrait-frame.sunlit::after{display:none}}
