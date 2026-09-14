@@ -7,6 +7,10 @@ import "./styles.css";
 import "./design-language.css";
 import "./pointer-feedback.css";
 import "./editorial-feedback.css";
+import "./facet-navigation.css";
+import "./facet-light.css";
+import "./inner-pages.css";
+import "./about-page.css";
 
 const legacySection = window.location.hash.slice(1);
 if (appPath() === '/' && ['about','products','team','statements','contact'].includes(legacySection)) {

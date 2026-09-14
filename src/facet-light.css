@@ -1,0 +1,74 @@
+/* P3R-inspired clarity: luminous planes, dark ink, and a decisive spatial reveal. */
+.facet-light {opacity: 0; pointer-events: none; transition: opacity 220ms var(--motion-ease);}
+.facet-light-edge {stroke-dasharray: 100; stroke-dashoffset: 100; transition: stroke-dashoffset 400ms var(--motion-ease);}
+.facet-link {--facet-ink: #f3f5fa; --facet-muted: #bdcfe3; --facet-detail: #b4d3ee;}
+.facet-navigation .facet-link h2, .facet-link-mobile h2 {font-weight: 600; color: var(--facet-ink);}
+.facet-navigation .facet-link p, .facet-link.facet-link-mobile p {color: var(--facet-muted);}
+.facet-navigation .facet-link .facet-link-index, .facet-link.facet-link-mobile .facet-link-index,
+.facet-navigation .facet-link .facet-link-arrow, .facet-link.facet-link-mobile .facet-link-arrow {color: var(--facet-detail);}
+.facet-link::before {display: none;}
+.facet-link-rule {background: color-mix(in srgb, var(--facet-detail) 28%, transparent);}
+.facet-link-rule::after {background: var(--facet-detail);}
+.facet-link:focus-visible, .facet-link:active {
+  --facet-ink: #061b30; --facet-muted: #0a2840; --facet-detail: #0a2840; --facet-accent: #061b30;
+}
+.facet-link:focus-visible {outline-color: #0a2840;}
+
+/* The DOM label controls its existing SVG plane, leaving the hit area stationary. */
+.spatial-opening:has(.facet-link-products:is(:focus-visible, :active)) [data-facet="products"] .facet-light,
+.spatial-opening:has(.facet-link-team:is(:focus-visible, :active)) [data-facet="team"] .facet-light,
+.spatial-opening:has(.facet-link-statements:is(:focus-visible, :active)) [data-facet="statements"] .facet-light,
+.spatial-opening:has(.facet-link-about:is(:focus-visible, :active)) [data-facet="about"] .facet-light,
+.spatial-opening:has(.facet-link-contact:is(:focus-visible, :active)) [data-facet="contact"] .facet-light,
+[data-mobile-facet]:has(.facet-link:is(:focus-visible, :active)) .facet-light {opacity: 1;}
+
+.spatial-opening:has(.facet-link-products:is(:focus-visible, :active)) [data-facet="products"] .facet-light-edge,
+.spatial-opening:has(.facet-link-team:is(:focus-visible, :active)) [data-facet="team"] .facet-light-edge,
+.spatial-opening:has(.facet-link-statements:is(:focus-visible, :active)) [data-facet="statements"] .facet-light-edge,
+.spatial-opening:has(.facet-link-about:is(:focus-visible, :active)) [data-facet="about"] .facet-light-edge,
+.spatial-opening:has(.facet-link-contact:is(:focus-visible, :active)) [data-facet="contact"] .facet-light-edge,
+[data-mobile-facet]:has(.facet-link:is(:focus-visible, :active)) .facet-light-edge {stroke-dashoffset: 0;}
+
+@media (hover: hover) and (pointer: fine) {
+  .facet-link:hover {--facet-ink: #061b30; --facet-muted: #0a2840; --facet-detail: #0a2840;}
+  .spatial-opening:has(.facet-link-products:hover) [data-facet="products"] .facet-light,
+  .spatial-opening:has(.facet-link-team:hover) [data-facet="team"] .facet-light,
+  .spatial-opening:has(.facet-link-statements:hover) [data-facet="statements"] .facet-light,
+  .spatial-opening:has(.facet-link-about:hover) [data-facet="about"] .facet-light,
+  .spatial-opening:has(.facet-link-contact:hover) [data-facet="contact"] .facet-light,
+  [data-mobile-facet]:has(.facet-link:hover) .facet-light {opacity: 1;}
+  .spatial-opening:has(.facet-link-products:hover) [data-facet="products"] .facet-light-edge,
+  .spatial-opening:has(.facet-link-team:hover) [data-facet="team"] .facet-light-edge,
+  .spatial-opening:has(.facet-link-statements:hover) [data-facet="statements"] .facet-light-edge,
+  .spatial-opening:has(.facet-link-about:hover) [data-facet="about"] .facet-light-edge,
+  .spatial-opening:has(.facet-link-contact:hover) [data-facet="contact"] .facet-light-edge,
+  [data-mobile-facet]:has(.facet-link:hover) .facet-light-edge {stroke-dashoffset: 0;}
+}
+
+html[data-facet-transition]::view-transition-group(root) {animation-duration: 560ms;}
+html[data-facet-transition]::view-transition-old(root) {animation: facet-origin-leave 560ms var(--motion-ease) both;}
+html[data-facet-transition]::view-transition-new(root) {animation: facet-origin-reveal 560ms var(--motion-ease) both;}
+html[data-facet-transition] .subpage h1 {animation: facet-heading-arrive 360ms 120ms var(--motion-ease) both;}
+@keyframes facet-origin-leave {
+  0%, 25% {opacity: 1;}
+  100% {opacity: 0;}
+}
+@keyframes facet-origin-reveal {
+  from {clip-path: var(--facet-reveal-from); opacity: .45;}
+  55% {opacity: 1;}
+  to {clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); opacity: 1;}
+}
+@keyframes facet-heading-arrive {
+  from {transform: translateY(14px); clip-path: inset(0 0 100% 0);}
+  to {transform: none; clip-path: inset(0);}
+}
+@media (max-width: 800px) {
+  html[data-facet-transition]::view-transition-group(root),
+  html[data-facet-transition]::view-transition-old(root),
+  html[data-facet-transition]::view-transition-new(root) {animation-duration: 420ms;}
+  html[data-facet-transition] .subpage h1 {animation-duration: 260ms; animation-delay: 80ms;}
+}
+@media (prefers-reduced-motion: reduce) {
+  .facet-light, .facet-light-edge {transition: none;}
+  html[data-facet-transition] .subpage h1 {animation: none;}
+}
