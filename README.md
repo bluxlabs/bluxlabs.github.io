@@ -1,6 +1,6 @@
 # Blux Labs website
 
-React/Vite website for https://bluxlabs.com/. Main is the source of truth. Pushes to main run tests, build all 24 direct-entry pages, and deploy the static output through GitHub Pages.
+React/Vite website for https://bluxlabs.com/. Main is the source of truth. Pushes to main run API, packaging and page-motion tests, build all direct-entry pages, and deploy the static output through GitHub Pages.
 
 ## Development
 

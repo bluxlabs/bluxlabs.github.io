@@ -1,0 +1,124 @@
+/* Focus → response → settle. Cool-blue depth, precise state hierarchy. */
+.link.pointer-action > .action-content {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: inherit;
+  gap: var(--action-gap, 35px);
+  font-size: inherit;
+  transform: none;
+  transition: transform var(--motion-quick) var(--motion-ease);
+}
+.pointer-action .action-content > span {display: inline-flex; align-items: center;}
+.link.pointer-action .arrow-icon {transform: none; transition: none;}
+.spatial-slogan .pointer-action {--action-gap: 20px;}
+.mobile-spatial-slogan .pointer-action {--action-gap: 14px;}
+.experience-actions .pointer-action {--action-gap: 20px;}
+.contact-actions .contact-primary {--action-gap: 28px;}
+.pointer-action:disabled {cursor: wait;}
+.link.pointer-action:active:not(:disabled) > .action-content {
+  transform: translateY(1px) scale(.985);
+  transition-duration: 80ms;
+}
+.pointer-action:focus-visible {outline: 2px solid #8eaeff; outline-offset: 5px;}
+.pointer-action.dark:focus-visible {outline-color: #345fa8;}
+
+/* The light is confined to the frame; the instrument itself stays unaltered. */
+.product-media a.observation-window, .experience-media a.observation-window {
+  position: relative;
+  isolation: isolate;
+  transition: transform var(--motion-quick) var(--motion-ease),
+    border-color var(--motion-quick), box-shadow var(--motion-quick);
+}
+.observation-window::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  padding: 2px;
+  pointer-events: none;
+  background: radial-gradient(180px circle at var(--pointer-x, 50%) var(--pointer-y, 50%), #b4e5ff, #64ade6 35%, transparent 100%);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity var(--motion-quick);
+}
+.product-media a.observation-window img {opacity: 1; transition: none;}
+.product-media a.observation-window:focus-visible,
+.experience-media a.observation-window:focus-visible {
+  outline: 2px solid #8eaeff;
+  outline-offset: 5px;
+  border-color: #9ddcff;
+}
+.product-media a.observation-window:active,
+.experience-media a.observation-window:active {border-color: #b4e5ff;}
+
+/* A provisional layer is visually distinct from the committed selection. */
+.workflow-controls {--preview-opacity: 0;}
+.workflow-preview {
+  position: absolute;
+  inset: 0 0 auto;
+  height: calc(100% / var(--step-count, 3));
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(110deg, #9ddcff20, #9ddcff04);
+  border-left: 1px solid #72a6cc;
+  opacity: var(--preview-opacity);
+  transform: translateY(calc(var(--preview-step, var(--active-step)) * 100%));
+  transition: transform var(--motion-quick) var(--motion-ease), opacity var(--motion-quick);
+}
+.workflow-controls button:hover {background: transparent;}
+.workflow-controls:has(button:not([aria-pressed="true"]):focus-visible) {--preview-opacity: 1;}
+.workflow-controls:has(button:nth-of-type(1):focus-visible) {--preview-step: 0;}
+.workflow-controls:has(button:nth-of-type(2):focus-visible) {--preview-step: 1;}
+.workflow-controls:has(button:nth-of-type(3):focus-visible) {--preview-step: 2;}
+.workflow-controls button:active {background: #9ddcff15;}
+
+@media(hover: hover) and (pointer: fine) {
+  .product-media a.observation-window:hover,
+  .experience-media a.observation-window:hover {border-color: #638fb5;}
+  .workflow-controls:has(button:hover) {--preview-opacity: 0;}
+  .workflow-controls:has(button:not([aria-pressed="true"]):hover) {--preview-opacity: 1;}
+  .workflow-controls:has(button:nth-of-type(1):hover) {--preview-step: 0;}
+  .workflow-controls:has(button:nth-of-type(2):hover) {--preview-step: 1;}
+  .workflow-controls:has(button:nth-of-type(3):hover) {--preview-step: 2;}
+  .workflow-controls button:hover .arrow-icon {opacity: 1;}
+}
+
+@media(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .link.pointer-action[data-pointer-active] > .action-content {
+    transform: translate(var(--pull-x, 0px), var(--pull-y, 0px));
+  }
+  .link.pointer-action[data-pointer-active]:active:not(:disabled) > .action-content {
+    transform: translateY(1px) scale(.985);
+    transition-duration: 80ms;
+  }
+  .product-media a.observation-window[data-pointer-active],
+  .experience-media a.observation-window[data-pointer-active] {
+    transform: translateY(-2px);
+    border-color: #638fb5;
+    box-shadow: 0 8px 24px #020a1540;
+    overflow: visible;
+  }
+  .observation-window[data-pointer-active]::after {opacity: 1;}
+  .workflow-controls button:not([aria-pressed="true"]):hover .arrow-icon {transform: translateX(2px);}
+}
+
+@media(max-width: 800px) {
+  .spatial-slogan .pointer-action {--action-gap: 14px;}
+  .workflow-preview {
+    width: calc(100% / var(--step-count, 3));
+    height: 100%;
+    inset: 0 auto 0 0;
+    border-left: 0;
+    border-bottom: 1px solid #72a6cc;
+    transform: translateX(calc(var(--preview-step, var(--active-step)) * 100%));
+  }
+}
+
+@media(prefers-reduced-motion: reduce) {
+  .link.pointer-action > .action-content,
+  .product-media a.observation-window, .experience-media a.observation-window,
+  .observation-window::after, .workflow-preview, .workflow-controls button,
+  .workflow-controls button .arrow-icon {transition: none !important;}
+  .link.pointer-action:active:not(:disabled) > .action-content {transform: none;}
+}

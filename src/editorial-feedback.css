@@ -1,0 +1,146 @@
+/* One interaction language, shaped around each page's actual reading task. */
+.pointer-row {
+  position: relative;
+  isolation: isolate;
+  transition: color var(--motion-quick), background-color var(--motion-quick);
+}
+.pointer-row::before, .reading-section::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  pointer-events: none;
+  background: radial-gradient(240px 3px at var(--pointer-x, 32px) 50%, #b4e5ff, #64ade6 32%, transparent);
+  opacity: 0;
+  transition: opacity var(--motion-quick);
+}
+.pointer-row .arrow-icon {
+  transform: none;
+  transition: transform var(--motion-quick) var(--motion-ease), color var(--motion-quick);
+}
+.pointer-row > span:last-child,
+.statement.pointer-row:hover > span:last-child {transform: none;}
+.pointer-row:focus-visible {
+  outline: 2px solid #8eaeff;
+  outline-offset: 4px;
+  background-color: #15364d60;
+}
+.pointer-row:focus-visible::before {
+  opacity: 1;
+  background: linear-gradient(90deg, #b4e5ff, #64ade650, transparent);
+}
+.pointer-row:active {background-color: #24517060;}
+.nav-panel a.pointer-row, .nav-panel a.pointer-row:hover {padding-left: 0;}
+
+/* A portrait is a real profile link; names and facial details remain stationary. */
+.portrait-link {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  isolation: isolate;
+  margin-bottom: 20px;
+  outline-offset: 5px;
+  box-shadow: 0 0 0 1px #42658e44;
+  transition: box-shadow var(--motion-quick);
+}
+.portrait-link .team-portrait-frame, .portrait-link > .portrait-absent {margin-bottom: 0;}
+.portrait-link::after {z-index: 3;}
+.portrait-open {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #89b9df70;
+  background: #081321e8;
+  color: #c6e7ff;
+  transition: color var(--motion-quick), background-color var(--motion-quick);
+}
+.portrait-open .arrow-icon {transition: transform var(--motion-quick) var(--motion-ease);}
+.person .card-title {transition: color var(--motion-quick);}
+.portrait-link:focus-visible {outline: 2px solid #8eaeff;}
+.portrait-link:focus-visible .portrait-open,
+.person:has(.pointer-action:focus-visible) .portrait-open {background: #a8dcff; color: #08203a;}
+.person:focus-within .card-title {color: #b7e2ff;}
+.article-author img {transition: box-shadow var(--motion-quick);}
+.article-author:focus-visible {outline: 2px solid #8eaeff; outline-offset: 6px;}
+
+/* About's reading marker carries no button behavior or hidden information. */
+.reading-section {position: relative;}
+.reading-section::before {top: -31px;}
+.reading-section .eyebrow {transition: color var(--motion-quick);}
+
+/* Form focus unfolds along the existing input baseline, without moving text. */
+.contact-field {position: relative;}
+.contact-field .field-label {transition: color var(--motion-quick);}
+.contact-field::after {
+  content: '';
+  position: absolute;
+  inset: auto 0 0;
+  height: 2px;
+  background: #a8dcff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--motion-quick) var(--motion-ease);
+  pointer-events: none;
+}
+.contact-field:focus-within::after {transform: scaleX(1);}
+.contact-field:focus-within .field-label {color: #c6e7ff;}
+.contact-field input:focus, .contact-field textarea:focus {background: #15345155;}
+
+.site-footer a:not(.brand) {position: relative;}
+.site-footer a:not(.brand)::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 28px;
+  height: 1px;
+  background: #9ddcff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--motion-quick) var(--motion-ease);
+}
+.site-footer a:focus-visible::after {transform: scaleX(1);}
+
+@media(hover: hover) and (pointer: fine) {
+  .pointer-row:hover {background-color: #15364d60;}
+  .pointer-row:hover::before, .reading-section:hover::before {opacity: 1;}
+  .pointer-row:hover .arrow-icon {color: #c6e7ff;}
+  .portrait-link:hover {box-shadow: 0 0 0 1px #83b9e3;}
+  .portrait-link:hover .portrait-open,
+  .person:has(.pointer-action:hover) .portrait-open {background: #a8dcff; color: #08203a;}
+  .person:has(.portrait-link:hover, .pointer-action:hover) .card-title {color: #b7e2ff;}
+  .article-author:hover img {box-shadow: 0 0 0 2px #83b9e3;}
+  .reading-section:hover .eyebrow {color: #c6e7ff;}
+  .contact-field:hover .field-label {color: #c6e7ff;}
+  .site-footer a:hover::after {transform: scaleX(1);}
+}
+
+@media(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .pointer-row:hover .arrow-icon {
+    transform: translate(calc(2px + var(--pull-x, 0px) * .35), calc(-1px + var(--pull-y, 0px) * .5));
+  }
+  .portrait-link:hover .portrait-open .arrow-icon,
+  .person:has(.pointer-action:hover) .portrait-open .arrow-icon {transform: translate(2px, -2px);}
+}
+
+@media(max-width: 540px) {
+  /* Each stacked reading block gets its own baseline. */
+  .subpage .about .split-copy {border-top: 0; padding-top: 0;}
+  .reading-section {border-top: 1px solid #33465c; padding-top: 20px;}
+  .reading-section::before {top: -1px;}
+}
+
+@media(prefers-reduced-motion: reduce) {
+  .pointer-row, .pointer-row::before, .pointer-row .arrow-icon,
+  .portrait-link, .portrait-open, .portrait-open .arrow-icon, .person .card-title,
+  .article-author img, .reading-section::before, .reading-section .eyebrow,
+  .contact-field::after, .contact-field .field-label, .site-footer a::after {transition: none !important;}
+  .pointer-row .arrow-icon, .portrait-open .arrow-icon {transform: none !important;}
+}

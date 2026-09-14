@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "test:sites": "node --test tests/sites-worker.test.mjs",
     "test:api": "node --test tests/contact.test.mjs",
+    "test:motion": "node --test tests/page-motion.test.mjs",
     "start": "node server/node.mjs"
   },
   "dependencies": {

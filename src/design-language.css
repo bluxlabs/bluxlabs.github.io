@@ -1,0 +1,181 @@
+/* Blux v1.2: clear tasks, continuous space, decisive cool-blue feedback. */
+:root {
+  --motion-quick: 160ms;
+  --motion-panel: 260ms;
+  --motion-page: 440ms;
+  --motion-ease: cubic-bezier(.2, .8, .2, 1);
+  --sky: #9ddcff;
+  --site-header-height: 84px;
+  --chapter-nav-height: 58px;
+}
+
+html {scroll-padding-top: 0; scrollbar-gutter: stable;}
+header {height: 84px; view-transition-name: blux-header;}
+#main-content {scroll-margin-top: calc(var(--site-header-height) + 24px);}
+.section {scroll-margin-top: calc(var(--site-header-height) + 24px);}
+
+/* Native document navigation retains URLs, browser history and modifier clicks. */
+@view-transition {navigation: auto;}
+::view-transition {pointer-events: none;}
+::view-transition-group(root) {animation-duration: var(--motion-page); animation-timing-function: var(--motion-ease);}
+::view-transition-old(root) {animation: blux-page-leave 180ms ease-out both;}
+::view-transition-new(root) {animation: blux-page-reveal var(--motion-page) var(--motion-ease) both; mix-blend-mode: normal;}
+::view-transition-group(blux-header) {z-index: 3; animation: none;}
+::view-transition-old(blux-header) {animation: none; opacity: 0;}
+::view-transition-new(blux-header) {animation: none;}
+@keyframes blux-page-leave {
+  to {opacity: 0; transform: translateX(-16px);}
+}
+@keyframes blux-page-reveal {
+  from {opacity: .3; transform: translateX(28px); clip-path: polygon(0 0, 12% 0, 0 100%, 0 100%);}
+  55% {opacity: 1;}
+  to {opacity: 1; transform: none; clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);}
+}
+
+/* Make incoming content available to the browser's page snapshot. */
+.subpage .reveal {opacity: 1; transform: none;}
+.subpage {background: linear-gradient(130deg, #10254155, transparent 580px), #081321;}
+.subpage .section-label {display: flex; align-items: center; gap: 14px; color: #abccef; font-size: 11px; letter-spacing: 1.8px;}
+.subpage .section-label::before {content: ''; width: 25px; height: 2px; background: var(--sky);}
+.subpage .eyebrow {font-size: 11px; letter-spacing: 1.5px; color: #abc5e5;}
+.subpage h1 {letter-spacing: -.052em;}
+.subpage h1 span {color: #a9c8ec;}
+.breadcrumb {gap: 12px;}
+.breadcrumb a {transition: color var(--motion-quick);}
+.breadcrumb [aria-current] {color: #e0f0ff;}
+
+/* Crisp navigation, with a common baseline and a restrained spatial reveal. */
+header nav > a, .nav-group summary {position: relative; min-height: 44px;}
+header nav > a::after, .nav-group summary::after {
+  content: ''; position: absolute; left: 0; right: 0; bottom: 2px; height: 2px;
+  background: var(--sky); transform: scaleX(0); transform-origin: left;
+  transition: transform var(--motion-panel) var(--motion-ease);
+}
+header nav > a:hover::after, header nav > a[aria-current="page"]::after,
+.nav-group summary:hover::after, .nav-group summary.active::after,
+.nav-group[open] summary::after {transform: scaleX(1);}
+header nav > a:hover {border-bottom-color: transparent;}
+.nav-group[open] .nav-panel {animation: blux-menu-enter var(--motion-panel) var(--motion-ease) both;}
+.nav-panel {border-top: 2px solid #8bc7f0; background: #0f2136fa; border-radius: 2px;}
+.nav-panel a {transition: color var(--motion-quick), padding var(--motion-panel) var(--motion-ease);}
+.nav-panel a:hover {padding-left: 5px;}
+@keyframes blux-menu-enter {
+  from {opacity: 0; transform: translateY(-8px); clip-path: inset(0 0 16% 0);}
+  to {opacity: 1; transform: none; clip-path: inset(0);}
+}
+.link {position: relative; transition: color var(--motion-quick), border-color var(--motion-quick), background var(--motion-quick);}
+.link:hover {color: var(--sky); border-color: var(--sky);}
+.link:active {background: #9ddcff0b;}
+.link .arrow-icon {transition: transform var(--motion-panel) var(--motion-ease);}
+.link:hover .arrow-icon {transform: translate(3px, -2px);}
+.link:hover > span {transform: none;}
+.dark:hover {color: #345fa8; border-color: #345fa8;}
+
+/* Let the actual instruments enter the overview sooner. */
+.subpage .product-index {padding-top: 32px;}
+.product-index > .section-label {margin-bottom: 26px;}
+.product-index-heading {display: grid; grid-template-columns: 1.25fr 1fr; gap: 8%; align-items: end; margin-bottom: 38px;}
+.product-index-heading h1 {font-size: clamp(48px, 5.1vw, 76px); margin: 0;}
+.product-index-heading .section-intro {position: static; max-width: 300px; font-size: 16px; line-height: 1.8; margin: 0 0 6px;}
+.product-index .product {padding: 32px 0; gap: 8%; border-color: #345273;}
+.product-index .product .card-title {font-size: clamp(28px, 3vw, 40px); margin: 16px 0;}
+.product-index .product .lead {font-size: 18px; line-height: 1.6;}
+.product-index .product-media {margin: 0;}
+.product-index .product-media > a {padding: 14px; border-color: #36516f;}
+.product-index .product-media img {height: 245px;}
+.product-index .stage {display: table; margin: 18px 0 12px; padding: 5px 9px; border: 1px solid #4e6f94; font-size: 10px; letter-spacing: 1.25px; color: #c4deff;}
+.product-media figcaption, .experience-media figcaption {font-size: 12px; line-height: 1.6;}
+
+/* Chapter locations account for both the fixed header and the sticky rail. */
+.product-chapters {
+  position: sticky; top: var(--site-header-height); left: auto; right: auto;
+  display: flex; flex-direction: row; align-items: center; gap: 30px;
+  min-height: 58px; padding: 0; z-index: 5;
+  background: #0a1b2ef5; border-color: #36516f; backdrop-filter: blur(16px);
+}
+.product-chapters a {position: relative; padding: 18px 0; white-space: nowrap; color: #aec1d9; border-bottom: 0; transition: color var(--motion-quick);}
+.product-chapters a:hover, .product-chapters a[aria-current="location"] {color: #e1f4ff;}
+.product-chapters a:focus-visible {outline-offset: -2px;}
+.chapter-marker {position: absolute; pointer-events: none; bottom: -1px; left: 0; height: 2px; background: var(--sky); transition: transform var(--motion-panel) var(--motion-ease), width var(--motion-panel) var(--motion-ease);}
+.product-experience section[id] {scroll-margin-top: calc(var(--site-header-height) + var(--chapter-nav-height) + 32px);}
+.workflow-section {padding-top: 44px;}
+.workflow-layout {border-color: #385775; background: #0b1d31;}
+.workflow-controls {position: relative; isolation: isolate; border-color: #385775;}
+.workflow-selection {
+  position: absolute; inset: 0 0 auto; height: calc(100% / 3); z-index: -1; pointer-events: none;
+  background: linear-gradient(110deg, #245b87, #143658); border-left: 3px solid var(--sky);
+  transform: translateY(calc(var(--active-step) * 100%));
+  transition: transform var(--motion-panel) var(--motion-ease);
+}
+.workflow-controls button {position: relative; min-height: 106px; border-color: #385775; padding: 24px; transition: color var(--motion-quick), background var(--motion-quick);}
+.workflow-controls button[aria-pressed="true"] {background: transparent; box-shadow: none; color: #f2faff;}
+.workflow-controls button:hover {background: #9ddcff0a;}
+.workflow-controls button > span:first-child {font-size: 11px; color: #bbd7f4;}
+.workflow-controls button .arrow-icon {opacity: .6; transition: transform var(--motion-panel) var(--motion-ease), opacity var(--motion-quick);}
+.workflow-controls button[aria-pressed="true"] .arrow-icon {opacity: 1; transform: translate(3px, -2px);}
+.workflow-controls button:focus-visible {outline-offset: -5px;}
+.workflow-panel {background: linear-gradient(135deg, #102e4755, transparent); min-height: 340px;}
+.workflow-panel-copy {animation: blux-content-enter 220ms var(--motion-ease) both;}
+@keyframes blux-content-enter {from {opacity: .2; transform: translateX(12px);} to {opacity: 1; transform: none;}}
+.workflow-output {border-color: #436b91;}
+.workflow-output > span, .comparison span {font-size: 11px;}
+.experience-media > a {border-color: #3b5b7e;}
+
+/* Carry the same feedback through the editorial and team pages. */
+.person {border-top-color: #42658e;}
+.person .eyebrow {line-height: 1.7;}
+.statement {position: relative; transition: background var(--motion-panel), color var(--motion-quick);}
+.statement:hover, .statement:focus-visible {background: #122d4855; color: #d2edff;}
+.statement-number {color: #97c6ed;}
+.statement > span:last-child {color: #a8dcff;}
+.related > a {transition: color var(--motion-quick), background var(--motion-quick);}
+.related > a:hover {color: #c1e8ff; background: #122d4833;}
+.wechat-dialog[open] {animation: blux-dialog-enter var(--motion-panel) var(--motion-ease) both;}
+@keyframes blux-dialog-enter {from {opacity: 0; transform: translateY(12px) scale(.98);} to {opacity: 1; transform: none;}}
+
+.contact form {border-top-color: #6fadd9;}
+.contact-availability {padding: 0 0 24px; margin-bottom: 26px; border-bottom: 1px solid #36516f;}
+.contact-availability .eyebrow {margin: 0 0 10px; color: #b5e4ff;}
+.contact-availability p:last-child {font-size: 14px; line-height: 1.75; color: #b6cbe4; margin: 0; max-width: 390px;}
+.contact-availability a {color: #e3f4ff; text-decoration: underline; text-underline-offset: 3px;}
+.contact-actions .contact-primary {background: #a8dcff; color: #08203a; border: 1px solid #a8dcff; padding: 13px 18px; gap: 28px; font-weight: 500;}
+.contact-actions .contact-primary:hover {background: #c4e9ff; border-color: #c4e9ff;}
+.contact-actions .contact-primary:active {background: #8fc9f2;}
+.contact input:focus, .contact textarea:focus {border-color: var(--sky); background: #15345155;}
+.contact-privacy {font-size: 12px;}
+
+@media(max-width: 800px) {
+  :root {--site-header-height: 76px; --chapter-nav-height: 54px; --motion-page: 320ms;}
+  header {height: 76px; min-height: 76px;}
+  header nav {top: var(--site-header-height);}
+  header nav > a, .nav-group summary {min-height: 46px;}
+  .nav-group[open] .nav-panel {animation-duration: 180ms;}
+  .nav-panel {border-top: 0;}
+  .subpage {padding-top: 92px;}
+  .subpage .product-index {padding-top: 28px;}
+  .product-index-heading {grid-template-columns: 1fr; gap: 18px; margin-bottom: 28px;}
+  .product-index-heading h1 {font-size: clamp(38px, 10vw, 58px);}
+  .product-index-heading .section-intro {font-size: 14px;}
+  .product-index .product {padding: 28px 0; gap: 22px;}
+  .product-index .product-media img {height: auto; max-height: 280px;}
+  .product-index .product .lead {font-size: 16px;}
+  .product-chapters {position: sticky; min-height: 54px; gap: 12px; flex-wrap: nowrap; justify-content: space-between;}
+  .product-chapters a {font-size: 11px; padding: 17px 0;}
+  .workflow-section {padding-top: 28px;}
+  .workflow-controls button {padding: 16px 8px; min-height: 86px;}
+  .workflow-controls button strong {font-size: 14px;}
+  .workflow-selection {width: calc(100% / 3); height: 100%; inset: 0 auto 0 0; border-left: 0; border-bottom: 3px solid var(--sky); transform: translateX(calc(var(--active-step) * 100%));}
+  .workflow-panel {min-height: 350px; padding: 26px;}
+  .contact-grid {gap: 38px;}
+  .contact-availability {padding-bottom: 20px; margin-bottom: 22px;}
+}
+
+@media(prefers-reduced-motion: reduce) {
+  @view-transition {navigation: none;}
+  html {scroll-behavior: auto;}
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) {animation: none !important;}
+  .chapter-marker, .workflow-selection, .nav-panel, .workflow-panel-copy,
+  .link, .link .arrow-icon, .statement, .related > a, .wechat-dialog,
+  header nav > a::after, .nav-group summary::after {animation: none !important; transition: none !important;}
+  .workflow-controls button .arrow-icon, .link:hover .arrow-icon {transform: none;}
+}

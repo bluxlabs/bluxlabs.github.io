@@ -27,7 +27,7 @@ jobs:
         env:
           BUILD_BASE: /
           VITE_STATIC_PREVIEW: 'true'
-      - run: npm run test:api && npm run test:sites
+      - run: npm run test:api && npm run test:sites && npm run test:motion
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist/client
