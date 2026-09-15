@@ -1,6 +1,11 @@
 /* P3R-inspired clarity: luminous planes, dark ink, and a decisive spatial reveal. */
 .facet-light {opacity: 0; pointer-events: none; transition: opacity 220ms var(--motion-ease);}
 .facet-light-edge {stroke-dasharray: 100; stroke-dashoffset: 100; transition: stroke-dashoffset 400ms var(--motion-ease);}
+.facet-light-slot {position: absolute; pointer-events: none;}
+.facet-light-desktop {width: 100%; height: 100%; contain: paint; will-change: opacity;}
+.facet-light-desktop svg {display: block; width: 100%; height: 100%;}
+/* The small label rule still draws; the large plane edge fades with its cached surface. */
+.facet-light-desktop .facet-light-edge {stroke-dasharray: none; stroke-dashoffset: 0; transition: none;}
 .facet-link {--facet-ink: #f3f5fa; --facet-muted: #bdcfe3; --facet-detail: #b4d3ee;}
 .facet-navigation .facet-link h2, .facet-link-mobile h2 {font-weight: 600; color: var(--facet-ink);}
 .facet-navigation .facet-link p, .facet-link.facet-link-mobile p {color: var(--facet-muted);}
@@ -15,33 +20,33 @@
 .facet-link:focus-visible {outline-color: #0a2840;}
 
 /* The DOM label controls its existing SVG plane, leaving the hit area stationary. */
-.spatial-opening:has(.facet-link-products:is(:focus-visible, :active)) [data-facet="products"] .facet-light,
-.spatial-opening:has(.facet-link-team:is(:focus-visible, :active)) [data-facet="team"] .facet-light,
-.spatial-opening:has(.facet-link-statements:is(:focus-visible, :active)) [data-facet="statements"] .facet-light,
-.spatial-opening:has(.facet-link-about:is(:focus-visible, :active)) [data-facet="about"] .facet-light,
-.spatial-opening:has(.facet-link-contact:is(:focus-visible, :active)) [data-facet="contact"] .facet-light,
+.spatial-opening:has(.facet-link-products:is(:focus-visible, :active)) [data-facet-light="products"] .facet-light,
+.spatial-opening:has(.facet-link-team:is(:focus-visible, :active)) [data-facet-light="team"] .facet-light,
+.spatial-opening:has(.facet-link-statements:is(:focus-visible, :active)) [data-facet-light="statements"] .facet-light,
+.spatial-opening:has(.facet-link-about:is(:focus-visible, :active)) [data-facet-light="about"] .facet-light,
+.spatial-opening:has(.facet-link-contact:is(:focus-visible, :active)) [data-facet-light="contact"] .facet-light,
 [data-mobile-facet]:has(.facet-link:is(:focus-visible, :active)) .facet-light {opacity: 1;}
 
-.spatial-opening:has(.facet-link-products:is(:focus-visible, :active)) [data-facet="products"] .facet-light-edge,
-.spatial-opening:has(.facet-link-team:is(:focus-visible, :active)) [data-facet="team"] .facet-light-edge,
-.spatial-opening:has(.facet-link-statements:is(:focus-visible, :active)) [data-facet="statements"] .facet-light-edge,
-.spatial-opening:has(.facet-link-about:is(:focus-visible, :active)) [data-facet="about"] .facet-light-edge,
-.spatial-opening:has(.facet-link-contact:is(:focus-visible, :active)) [data-facet="contact"] .facet-light-edge,
+.spatial-opening:has(.facet-link-products:is(:focus-visible, :active)) [data-facet-light="products"] .facet-light-edge,
+.spatial-opening:has(.facet-link-team:is(:focus-visible, :active)) [data-facet-light="team"] .facet-light-edge,
+.spatial-opening:has(.facet-link-statements:is(:focus-visible, :active)) [data-facet-light="statements"] .facet-light-edge,
+.spatial-opening:has(.facet-link-about:is(:focus-visible, :active)) [data-facet-light="about"] .facet-light-edge,
+.spatial-opening:has(.facet-link-contact:is(:focus-visible, :active)) [data-facet-light="contact"] .facet-light-edge,
 [data-mobile-facet]:has(.facet-link:is(:focus-visible, :active)) .facet-light-edge {stroke-dashoffset: 0;}
 
 @media (hover: hover) and (pointer: fine) {
   .facet-link:hover {--facet-ink: #061b30; --facet-muted: #0a2840; --facet-detail: #0a2840;}
-  .spatial-opening:has(.facet-link-products:hover) [data-facet="products"] .facet-light,
-  .spatial-opening:has(.facet-link-team:hover) [data-facet="team"] .facet-light,
-  .spatial-opening:has(.facet-link-statements:hover) [data-facet="statements"] .facet-light,
-  .spatial-opening:has(.facet-link-about:hover) [data-facet="about"] .facet-light,
-  .spatial-opening:has(.facet-link-contact:hover) [data-facet="contact"] .facet-light,
+  .spatial-opening:has(.facet-link-products:hover) [data-facet-light="products"] .facet-light,
+  .spatial-opening:has(.facet-link-team:hover) [data-facet-light="team"] .facet-light,
+  .spatial-opening:has(.facet-link-statements:hover) [data-facet-light="statements"] .facet-light,
+  .spatial-opening:has(.facet-link-about:hover) [data-facet-light="about"] .facet-light,
+  .spatial-opening:has(.facet-link-contact:hover) [data-facet-light="contact"] .facet-light,
   [data-mobile-facet]:has(.facet-link:hover) .facet-light {opacity: 1;}
-  .spatial-opening:has(.facet-link-products:hover) [data-facet="products"] .facet-light-edge,
-  .spatial-opening:has(.facet-link-team:hover) [data-facet="team"] .facet-light-edge,
-  .spatial-opening:has(.facet-link-statements:hover) [data-facet="statements"] .facet-light-edge,
-  .spatial-opening:has(.facet-link-about:hover) [data-facet="about"] .facet-light-edge,
-  .spatial-opening:has(.facet-link-contact:hover) [data-facet="contact"] .facet-light-edge,
+  .spatial-opening:has(.facet-link-products:hover) [data-facet-light="products"] .facet-light-edge,
+  .spatial-opening:has(.facet-link-team:hover) [data-facet-light="team"] .facet-light-edge,
+  .spatial-opening:has(.facet-link-statements:hover) [data-facet-light="statements"] .facet-light-edge,
+  .spatial-opening:has(.facet-link-about:hover) [data-facet-light="about"] .facet-light-edge,
+  .spatial-opening:has(.facet-link-contact:hover) [data-facet-light="contact"] .facet-light-edge,
   [data-mobile-facet]:has(.facet-link:hover) .facet-light-edge {stroke-dashoffset: 0;}
 }
 
@@ -63,6 +68,7 @@ html[data-facet-transition] .subpage h1 {animation: facet-heading-arrive 360ms 1
   to {transform: none; clip-path: inset(0);}
 }
 @media (max-width: 800px) {
+  .facet-light-slot {display: none;}
   html[data-facet-transition]::view-transition-group(root),
   html[data-facet-transition]::view-transition-old(root),
   html[data-facet-transition]::view-transition-new(root) {animation-duration: 420ms;}
