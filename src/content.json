@@ -25,9 +25,9 @@
       "portrait": "/assets/people/albert-zhang.jpg"
     },
     {
-      "name": "Chaozhi Li",
+      "name": "Even Li",
       "role": "CTO",
-      "bio": "Chaozhi Li is CTO of Blux, where he leads work on miniscope performance upgrades, a digital-twin platform, an autoresearch agent, and whole-brain simulation based on multi-compartment Hodgkin-Huxley models. He is also a researcher in Professor Xu Zhiqing's depression-mechanisms lab at the School of Basic Medical Sciences, Capital Medical University. He is building Blux for three reasons: to end academic gatekeeping through paradigm shift, to enhance his own and others' cognition and drive humanity toward recursive self-improvement (RSI), and to build a post-scarcity society.",
+      "bio": "Even Li is CTO of Blux, where he leads work on miniscope performance upgrades, a digital-twin platform, an autoresearch agent, and whole-brain simulation based on multi-compartment Hodgkin-Huxley models. He is also a researcher in Professor Xu Zhiqing's depression-mechanisms lab at the School of Basic Medical Sciences, Capital Medical University. He is building Blux for three reasons: to end academic gatekeeping through paradigm shift, to enhance his own and others' cognition and drive humanity toward recursive self-improvement (RSI), and to build a post-scarcity society.",
       "portrait": "/assets/people/hancheng-tong.webp"
     },
     {
@@ -51,7 +51,7 @@
   ],
   "statements": [
     {
-      "author": "Chaozhi Li",
+      "author": "Even Li",
       "title": "Make Cognitive Enhancement a Public Road",
       "intro": "Machine intelligence is compounding exponentially while human cognitive enhancement has barely begun. I argue that enhancement must happen within people, not only in machines, and that how its gains are distributed is the defining question of this century: cognitive advantage, once monopolized, hardens into permanent power. Openness and oversight fail unless people are smart enough to use them, so making more people smarter is a precondition for keeping power in check. My work aims to build the gateways of cognitive enhancement into public roads, on the way to a post-scarcity, Kardashev-scale future.",
       "body": [
