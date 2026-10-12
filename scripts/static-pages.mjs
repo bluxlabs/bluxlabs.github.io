@@ -8,5 +8,8 @@ const html=readFileSync('dist/client/index.html','utf8');
 for(const [route,title,description]of routes){const folder='dist/client'+route;mkdirSync(folder,{recursive:true});writeFileSync(folder+'index.html',html.replace(/<title>.*?<\/title>/,`<title>${escape(title)}</title>`).replace('</head>',`<meta name="description" content="${escape(description)}" />\n<meta property="og:title" content="${escape(title)}" />\n<meta property="og:description" content="${escape(description)}" />\n</head>`));}
 writeFileSync('dist/client/404.html',html.replace('<title>Blux Labs</title>','<title>Page not found | Blux Labs</title>'));
 mkdirSync('review',{recursive:true});
-writeFileSync('review/routes.json',JSON.stringify(routes.map(r=>r[0]),null,2));
-console.log(`Prepared ${routes.length} direct-entry static pages.`);
+// Event pages are authored in public/ and copied intact by Vite.
+const standaloneRoutes=['/events/neuroscience-2026/'];
+for(const route of standaloneRoutes)readFileSync('dist/client'+route+'index.html','utf8');
+writeFileSync('review/routes.json',JSON.stringify([...routes.map(r=>r[0]),...standaloneRoutes],null,2));
+console.log(`Prepared ${routes.length} app pages and ${standaloneRoutes.length} standalone event page.`);
