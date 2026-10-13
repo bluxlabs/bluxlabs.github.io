@@ -130,3 +130,6 @@ header{top:0;left:0;right:0}
 @keyframes sol-sunrays{0%{opacity:0;transform:scale(.94)}20%{opacity:.8}65%{opacity:.65}100%{opacity:0;transform:scale(1.06)}}
 @media(max-width:800px){.team-portrait-frame{margin-bottom:20px}}
 @media(prefers-reduced-motion:reduce){.team-portrait-frame.sunlit::before{animation:none!important;opacity:1}.team-portrait-frame.sunlit::after{display:none}}
+
+/* Direct conference entry in the shared desktop and mobile navigation. */
+header nav .nav-event{color:#5bd4ff;min-height:44px;display:flex;align-items:center;white-space:nowrap}
