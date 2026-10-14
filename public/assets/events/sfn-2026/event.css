@@ -60,13 +60,13 @@ h1 { margin-top: 3vw; font-size: clamp(58px, 6.85vw, 130px); line-height: .99; l
 .button:hover svg { transform: translateX(3px) rotate(45deg); }
 .button-secondary { border-color: #7194cb; background: #08132160; }
 .button-secondary:hover { background: #1a3862; border-color: #b2d5ff; }
-.booth-strip { display: grid; grid-template-columns: auto auto 1fr; align-items: center; gap: 3.5vw; padding: 3.7vw var(--gutter); background: var(--paper); color: var(--ink); scroll-margin-top: 20px; }
+.booth-strip { display: grid; grid-template-columns: auto auto 1fr; align-items: center; gap: 3.5vw; padding: 3.7vw var(--gutter); background: linear-gradient(110deg, #263443, #1b2938); color: #f3f5fa; box-shadow: inset 0 1px #ffffff12, inset 0 -1px #00000024; scroll-margin-top: 20px; }
 .label { font-size: clamp(10px, 1vw, 17px); font-weight: 600; line-height: 1.5; letter-spacing: .27em; text-transform: uppercase; }
-.booth-strip > .label { align-self: stretch; display: flex; align-items: center; padding-right: 3.5vw; border-right: 1px solid #9cacc3; white-space: nowrap; }
+.booth-strip > .label { align-self: stretch; display: flex; align-items: center; padding-right: 3.5vw; color: #b8c7da; border-right: 1px solid #54677d; white-space: nowrap; }
 .booth-strip h2 { font-size: clamp(32px, 4.7vw, 83px); line-height: 1.1; letter-spacing: -.058em; font-weight: 740; text-transform: uppercase; white-space: nowrap; }
-.venue { padding-left: 3vw; border-left: 1px solid #9cacc3; }
-.venue p { font-size: clamp(16px, 1.65vw, 27px); line-height: 1.3; letter-spacing: -.025em; }
-.venue span { display: block; font-size: clamp(11px, 1.14vw, 19px); color: #345fa8; letter-spacing: .22em; text-transform: uppercase; margin-top: 8px; }
+.venue { padding-left: 3vw; border-left: 1px solid #54677d; }
+.venue p { color: #e1e7ef; font-size: clamp(16px, 1.65vw, 27px); line-height: 1.3; letter-spacing: -.025em; }
+.venue span { display: block; font-size: clamp(11px, 1.14vw, 19px); color: #a8c5fc; letter-spacing: .22em; text-transform: uppercase; margin-top: 8px; }
 .event-details { display: grid; grid-template-columns: 59.6% 40.4%; }
 .visit-panel { color: var(--ink); background: var(--paper); position: relative; isolation: isolate; padding: 6.8vw var(--gutter) 4.5vw; min-height: min(51vw, 965px); }
 .visit-panel::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 82% 64%, #d7dadd 0%, #e8ebef 29%, #f6f7f8 65%, #fff 100%); z-index: -1; }
@@ -163,7 +163,7 @@ h1 { margin-top: 3vw; font-size: clamp(58px, 6.85vw, 130px); line-height: .99; l
   .event-header nav a { font-size: 14px; }
   .booth-strip { grid-template-columns: auto 1fr; padding-block: 32px; gap: 24px; }
   .booth-strip h2 { font-size: 42px; }
-  .venue { grid-column: 1 / -1; padding: 20px 0 0; border-left: 0; border-top: 1px solid #bdc9d9; }
+  .venue { grid-column: 1 / -1; padding: 20px 0 0; border-left: 0; border-top: 1px solid #54677d; }
   .venue p { font-size: 19px; }
   .event-details { grid-template-columns: 55% 45%; }
   .visit-panel, .theater-panel { padding-top: 50px; min-height: 650px; }
