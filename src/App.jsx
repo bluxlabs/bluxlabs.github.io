@@ -53,7 +53,7 @@ function TeamCard({person:p,index}) {
   }
  }
  const portrait=p.portrait
-  ? <div className={'team-portrait-frame'+(sunlit?' sunlit':'')}><img className="portrait" loading="lazy" src={p.portrait} alt={p.name} style={{viewTransitionName:`portrait-${slug(p.name)}`}}/></div>
+  ? <div className={'team-portrait-frame'+(sunlit?' sunlit':'')}><img className="portrait" loading="lazy" src={p.portrait} alt={p.name} style={{viewTransitionName:`portrait-${slug(p.name)}`,objectFit:p.portraitFit,backgroundColor:p.portraitFit==='contain'?'#fff':undefined}}/></div>
   : <div className="portrait-absent" aria-hidden="true"><span>{p.name.split(' ').map(n=>n[0]).join('')}</span></div>;
  return <article className="person reveal">
   {p.bio ? <a className="portrait-link observation-window" data-pointer-feedback="portrait" href={personUrl(p)} aria-label={`Read ${p.name}'s profile`}>
@@ -69,7 +69,7 @@ function PersonPage({person:p}) {
  const index=String(content.people.indexOf(p)+1).padStart(2,'0');
  return <article className="detail-page person-detail"><Breadcrumb category="Team" title={p.name}/>
   <div className="profile-layout">
-   <div className="profile-visual">{p.portrait&&<img className="profile-image" src={p.portrait} alt={p.name} style={{viewTransitionName:`portrait-${slug(p.name)}`}}/>}<div className="profile-index"><span>BLUX / TEAM</span><span>{index}</span></div></div>
+   <div className="profile-visual">{p.portrait&&<img className="profile-image" src={p.portrait} alt={p.name} style={{viewTransitionName:`portrait-${slug(p.name)}`,objectFit:p.portraitFit,backgroundColor:p.portraitFit==='contain'?'#fff':undefined}}/>}<div className="profile-index"><span>BLUX / TEAM</span><span>{index}</span></div></div>
    <div className="profile-content"><p className="eyebrow">{p.role}</p><h1>{p.name}</h1><div className="profile-rule" aria-hidden="true"/>
     <div className="reading-copy">{p.bio.split('\n\n').map((text,i)=><p key={i}>{text}</p>)}</div>
     {statement&&<a className="profile-statement pointer-row" data-pointer-feedback="row" href={statementUrl(statement)}><span className="eyebrow">Personal perspective</span><h2>{statement.title}</h2><span className="link">Read statement <ArrowIcon/></span></a>}
