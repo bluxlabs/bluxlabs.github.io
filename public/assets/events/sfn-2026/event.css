@@ -86,6 +86,13 @@ h1 { margin-top: 3vw; font-size: clamp(58px, 6.85vw, 130px); line-height: .99; l
 .theater-panel > .label { color: #a8c5fc; margin-bottom: 2.2vw; }
 .theater-panel h2 { font-size: clamp(46px, 5.9vw, 106px); font-weight: 710; line-height: 1.03; letter-spacing: -.055em; }
 .accent-line { height: 4px; width: 32px; background: var(--cyan); margin: 2.5vw 0; }
+.session-title { margin: 0 0 22px; font-size: clamp(22px, 2.15vw, 34px); font-weight: 600; line-height: 1.3; letter-spacing: -.025em; overflow-wrap: anywhere; }
+.session-summary { color: #d3dfef; font-size: clamp(15px, 1.2vw, 19px); line-height: 1.7; margin-bottom: 26px; }
+.session-abstract { margin-top: 24px; border-top: 1px solid #33465c; font-size: clamp(14px, 1.15vw, 18px); line-height: 1.7; }
+.session-abstract summary { min-height: 44px; padding: 12px 0; color: #a8c5fc; cursor: pointer; }
+.session-abstract summary:hover { color: #d6e9ff; }
+.session-abstract summary:focus-visible { outline: 3px solid #8eaeff; outline-offset: 6px; }
+.session-abstract p { color: #d3dfef; padding-top: 6px; }
 .session-details > div { display: grid; grid-template-columns: 76px 1fr; gap: 16px; padding: 14px 0; align-items: baseline; border-bottom: 1px solid #33465c; }
 .session-details dt { color: var(--muted); font-size: clamp(13px, 1.24vw, 20px); }
 .session-details dd { font-size: clamp(20px, 2.2vw, 36px); font-weight: 450; letter-spacing: -.025em; }
