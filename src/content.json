@@ -27,7 +27,8 @@
     {
       "name": "Even Li",
       "role": "CTO",
-      "bio": "Even Li is CTO of Blux."
+      "bio": "even li is an independent researcher with blux and the oprain Foundation. He maps a scaling-law continuum across computational algorithms, probe-protein optimization, and optical hardware, bridging multi-channel EEG to voltage-probe readout. Motivated by frustration with human cognitive limits, his work targets an optical BCI -external cortex system (enabled by the self driving lab), with whole-brain simulation, Dyson swarms, and von Neumann probes to follow. His goal is to multiply collaboration efficiency, advance humanity toward recursive self-improvement, and ultimately build a post-scarcity society.",
+      "portrait": "/assets/people/even-li-brain-20261020.jpg"
     },
     {
       "name": "Yiyu Deng",
