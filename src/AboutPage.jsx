@@ -3,7 +3,7 @@ import {siteUrl} from './site-url.js';
 import {Action} from './Action.jsx';
 import {ArrowIcon} from './ArrowIcon.jsx';
 import {ChapterFacet} from './ChapterFacet.jsx';
-import {products} from './products.js';
+import {topLevelProducts as products} from './products.js';
 
 const productUrl = product => '/products/' + product.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '/';
 
@@ -30,7 +30,7 @@ export function AboutPage() {
     </div>
 
     <section className="about-building" aria-labelledby="about-building-title">
-      <div className="about-section-heading"><div><p className="eyebrow">Our work today</p><h2 id="about-building-title">What we’re building.</h2></div><p>Four research tools,<br/> all in development.</p></div>
+      <div className="about-section-heading"><div><p className="eyebrow">Our work today</p><h2 id="about-building-title">What we’re building.</h2></div><p>Research tools,<br/>all in development.</p></div>
       <div className="about-tool-band">
         {products.map(product => <a className="about-tool-link" key={product.name} href={productUrl(product)}>
           <span className="about-tool-index">{product.category.split(' / ')[0]}<ArrowIcon/></span>

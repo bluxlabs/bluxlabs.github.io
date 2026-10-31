@@ -76,6 +76,8 @@ h1 { margin-top: 3vw; font-size: clamp(58px, 6.85vw, 130px); line-height: .99; l
 .text-link { display: inline-flex; align-items: center; gap: 18px; font-weight: 500; min-height: 44px; border-bottom: 1px solid #abbad0; }
 .text-link svg { width: 18px; height: 18px; }
 .text-link:hover { color: #345fa8; border-color: #345fa8; }
+.session-product-link { margin-bottom: 24px; color: #d3dfef; }
+.session-product-link:hover { color: #54d7fb; border-color: #54d7fb; }
 .visit-link { position: relative; z-index: 2; margin-top: 20px; font-size: clamp(14px, 1.4vw, 22px); }
 .product-figure { position: absolute; right: 1.7vw; bottom: 5vw; width: 45%; }
 .product-figure a { display: block; }

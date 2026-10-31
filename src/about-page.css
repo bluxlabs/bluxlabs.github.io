@@ -26,7 +26,7 @@
 .about-page .eyebrow {font-size: 11px; color: #8fd9f0; margin: 0 0 16px;}
 .about-page h2 {font-size: clamp(30px, 3vw, 44px); font-weight: 500; line-height: 1.12; letter-spacing: -.045em; margin: 0;}
 .about-section-heading > p {font-size: 14px; line-height: 1.6; color: #b2c7dc; margin: 0;}
-.about-tool-band {display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); background: #39bdeb; color: #082338;}
+.about-tool-band {display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); background: #39bdeb; color: #082338;}
 .about-tool-link {display: flex; flex-direction: column; position: relative; padding: 24px; min-width: 0; border-right: 1px solid #135a7860; transition: background-color 180ms;}
 .about-tool-link:last-child {border-right: 0;}
 .about-tool-index {display: flex; align-items: center; justify-content: space-between; font-size: 12px; letter-spacing: .12em; margin-bottom: 28px;}

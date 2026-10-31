@@ -1,11 +1,12 @@
 import React, {useEffect, useLayoutEffect, useRef, useState} from 'react';
 import {siteUrl} from './site-url.js';
 
-export function ChapterNavigation({hasDemo}) {
+export function ChapterNavigation({hasDemo, hasHardware = false}) {
   const chapters = [
     ['research-context', 'Research context'],
     ['workflow', 'Workflow'],
     ...(hasDemo ? [['demonstration', 'Demonstration']] : []),
+    ...(hasHardware ? [['hardware-layers', 'Inside the rig']] : []),
     ['development', 'Development'],
   ];
   const navigation = useRef(null);
@@ -49,7 +50,7 @@ export function ChapterNavigation({hasDemo}) {
       window.removeEventListener('resize', scheduleMeasure);
       document.documentElement.style.removeProperty('--chapter-nav-height');
     };
-  }, [hasDemo]);
+  }, [hasDemo, hasHardware]);
 
   useLayoutEffect(() => {
     const nav = navigation.current;

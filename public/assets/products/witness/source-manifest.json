@@ -1,0 +1,82 @@
+{
+  "source_file": "Witness_Full.blend",
+  "source_sha256": "4f2645c1b08069f0c8eef6021a9331fa7d68c06fb0f28a50d2648c06dbc4890f",
+  "source_mesh_count": 93,
+  "source_vertices": 543458,
+  "geometry_changed": false,
+  "renderer": "Blender 5.2.1 LTS / Cycles",
+  "shots": [
+    {
+      "name": "overview",
+      "camera": [
+        3,
+        -4,
+        2.85
+      ],
+      "target": [
+        0,
+        0,
+        0.95
+      ],
+      "ortho_scale": 2.55,
+      "resolution": [
+        1400,
+        1600
+      ]
+    },
+    {
+      "name": "frame",
+      "camera": [
+        1.15,
+        -1.4,
+        1.3
+      ],
+      "target": [
+        0.47,
+        -0.43,
+        0.91
+      ],
+      "ortho_scale": 0.48,
+      "resolution": [
+        1600,
+        1100
+      ]
+    },
+    {
+      "name": "arena",
+      "camera": [
+        0.65,
+        -1.55,
+        2.05
+      ],
+      "target": [
+        0,
+        0,
+        1.02
+      ],
+      "ortho_scale": 1.25,
+      "resolution": [
+        1600,
+        1100
+      ]
+    },
+    {
+      "name": "sense",
+      "camera": [
+        0,
+        -0.85,
+        1.3
+      ],
+      "target": [
+        -0.32,
+        -0.32,
+        1.07
+      ],
+      "ortho_scale": 0.34,
+      "resolution": [
+        1600,
+        1100
+      ]
+    }
+  ]
+}

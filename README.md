@@ -12,9 +12,17 @@ GitHub Pages hosts the frontend only. Production builds set `VITE_STATIC_PREVIEW
 
 The custom domain remains bluxlabs.com. Both desktop and mobile homepages use the approved spatial facets navigation. Keep direct-entry route generation for subpages.
 
+## Witness product family
+
+`/products/witness-system/` introduces the full product family. Witness Engine is the software and computational core; Witness Rig is the hardware and physical environment, containing Witness Frame, Witness Arena and Witness Sense. The top-level product listing, About page and site navigation present the family under Witness System.
+
+The previous `/products/multi-cam-witness-system/` and `/products/experimental-digital-twin/` URLs redirect to Witness Rig and Witness Engine respectively. `src/products.js` owns this mapping; `scripts/static-pages.mjs` emits direct-entry pages and the compatibility redirects.
+
+The overview and three detail images in `public/assets/products/witness/` are renders of the existing Witness assembly, not product photography or validated hardware specifications. `source-manifest.json` records the model hash and render cameras. Run `blender --background --disable-autoexec /path/to/Witness_Full.blend --python scripts/render-witness.py -- --output /path/to/renders` to regenerate PNG masters; add `--preview` for smaller sample renders. Compress the final masters to WebP for the website. Source models are kept separately and are not modified by the render script.
+
 ## Neuroscience 2026 event page
 
-The standalone page at `/events/neuroscience-2026/` is authored in `public/events/neuroscience-2026/index.html` and copied intact by Vite. Its styles, motion, social cover and optimized assets are under `public/assets/events/sfn-2026/`. Update the speaker, title and time in the HTML; title and time intentionally remain TBD. The responsive page includes direct booth/theater links, pause/replay controls and reduced-motion support.
+The standalone page at `/events/neuroscience-2026/` is authored in `public/events/neuroscience-2026/index.html` and copied intact by Vite. Its styles, motion, social cover and optimized assets are under `public/assets/events/sfn-2026/`. Update the speaker, title and time in the HTML; the presentation title is supplied, and the session time remains TBD pending confirmation. The responsive page includes direct booth/theater links, pause/replay controls and reduced-motion support.
 
 Run `python3 scripts/build-sfn-art.py` to regenerate the inline hero and `hero-scene.svg` from the exact original logo paths. The shared scene keeps the logo and adjoining planes aligned. The event uses a Latin WOFF2 subset of Inter with the included SIL license and 420/840 px WebP versions of the original Miniscope render. Preserve the source logo and product image when updating these display assets. Production continues through the existing `main` GitHub Pages workflow.
 

@@ -6,8 +6,9 @@
   "/statements/",
   "/contact/",
   "/products/miniscope-v4/",
-  "/products/multi-cam-witness-system/",
-  "/products/experimental-digital-twin/",
+  "/products/witness-system/",
+  "/products/witness-engine/",
+  "/products/witness-rig/",
   "/products/blux-research-agent/",
   "/team/sol-wang/",
   "/team/lucas-zhuang/",
@@ -22,5 +23,7 @@
   "/statements/making-imagined-worlds-possible/",
   "/statements/consciousness-ultimate-measurement-of-existence/",
   "/statements/building-the-tools-to-understand-memory/",
+  "/products/multi-cam-witness-system/",
+  "/products/experimental-digital-twin/",
   "/events/neuroscience-2026/"
 ]
