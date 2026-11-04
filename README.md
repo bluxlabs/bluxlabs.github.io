@@ -22,7 +22,9 @@ The overview and three detail images in `public/assets/products/witness/` are re
 
 ## Neuroscience 2026 event page
 
-The standalone page at `/events/neuroscience-2026/` is authored in `public/events/neuroscience-2026/index.html` and copied intact by Vite. Its styles, motion, social cover and optimized assets are under `public/assets/events/sfn-2026/`. Update the speaker, title and time in the HTML; the presentation title is supplied, and the session time remains TBD pending confirmation. The responsive page includes direct booth/theater links, pause/replay controls and reduced-motion support.
+The standalone page at `/events/neuroscience-2026/` is authored in `public/events/neuroscience-2026/index.html` and copied intact by Vite. Its styles, motion, social cover and optimized assets are under `public/assets/events/sfn-2026/`. The confirmed Witness System session is Sunday, November 15, 2026, 4:00–4:30 p.m. EST (Washington, D.C. local time), with Sol Wang at the Focused Product Theater, Aisle 1100, session PROT20. Blux's exhibit booth is 2302. The responsive page includes direct booth/theater links, pause/replay controls and reduced-motion support.
+
+The social cover source is `scripts/sfn-share-source.html` (1200 × 630). Render it with the site's `/assets/` available, then export a JPEG to `public/assets/events/sfn-2026/share-20261104.jpg` and the legacy `share.jpg`. The versioned Open Graph URL gives newly shared links the confirmed session details; social platforms may retain previews for existing posts.
 
 Run `python3 scripts/build-sfn-art.py` to regenerate the inline hero and `hero-scene.svg` from the exact original logo paths. The shared scene keeps the logo and adjoining planes aligned. The event uses a Latin WOFF2 subset of Inter with the included SIL license and 420/840 px WebP versions of the original Miniscope render. Preserve the source logo and product image when updating these display assets. Production continues through the existing `main` GitHub Pages workflow.
 
