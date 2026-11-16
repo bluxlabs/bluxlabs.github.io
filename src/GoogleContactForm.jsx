@@ -6,7 +6,7 @@ import './google-contact.css';
 
 export function GoogleContactForm({links}) {
   return <div className="google-contact" id="contact-form">
-    <iframe className="google-contact-frame" src={links.embedded} title="Blux contact inquiry form" referrerPolicy="strict-origin-when-cross-origin">Open the form using the link below.</iframe>
+    <div className="contact-form-shell"><iframe className="google-contact-frame" src={links.embedded} title="Blux contact inquiry form" referrerPolicy="strict-origin-when-cross-origin">Open the form using the link below.</iframe></div>
     <div className="google-contact-support">
       <Action href={links.direct} target="_blank" rel="noopener noreferrer">Open form in a new tab <ArrowIcon/></Action>
       <p className="google-contact-help">If the form does not load, open it in a new tab. After submitting, wait for the confirmation inside the form.</p>

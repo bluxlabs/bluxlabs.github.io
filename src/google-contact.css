@@ -7,7 +7,11 @@
 .contact-page-heading>p:last-child{color:#b6c5d9;font-size:16px;line-height:1.5;margin:0}
 .contact-form-layout{display:grid;grid-template-columns:minmax(0,760px) minmax(210px,1fr);gap:42px;align-items:start}
 .google-contact{min-width:0;width:100%;scroll-margin-top:20px}
-.google-contact-frame{display:block;width:100%;height:1120px;border:1px solid #31536c;border-top:3px solid #62d2f7;border-radius:6px;background:#eaf2f8;color-scheme:light}
+.contact-form-shell{position:relative;isolation:isolate;padding:12px;background:linear-gradient(135deg,#174862,#10283f 45%,#081321);border:1px solid #31536c;border-radius:6px;box-shadow:0 16px 50px #020a1233}
+.contact-form-shell::before,.contact-form-shell::after{content:"";position:absolute;z-index:-1;pointer-events:none}
+.contact-form-shell::before{inset:0;background:linear-gradient(135deg,#62d2f7 0%,#62d2f700 35%);clip-path:polygon(0 0,150px 0,0 150px)}
+.contact-form-shell::after{right:0;bottom:0;width:100px;height:100px;background:#245dc3;clip-path:polygon(100% 0,100% 100%,0 100%)}
+.google-contact-frame{position:relative;display:block;width:100%;height:1120px;border:0;border-radius:2px;background:#eaf2f8;color-scheme:light}
 .google-contact-support{padding:6px 4px 0}
 .google-contact-help{font-size:13px;line-height:1.6;color:#b6c5d9;margin:14px 0}
 .google-contact .contact-privacy{font-size:11px;line-height:1.65;color:#a9bbd1;max-width:62ch;margin:14px 0 0}
@@ -28,6 +32,7 @@
  .subpage .contact-page-heading h1{font-size:32px;letter-spacing:-1px;margin-bottom:6px}
  .contact-page-heading>p:last-child{font-size:14px}
  .contact-form-layout{grid-template-columns:minmax(0,1fr);gap:30px}
+ .contact-form-shell{padding:6px;border-radius:4px}
  .google-contact-frame{height:1180px}
  .contact-secondary{padding:0 2%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
  .contact-share{margin:0;padding-top:20px;align-items:start}
