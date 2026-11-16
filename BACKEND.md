@@ -50,3 +50,29 @@ CONTACT_FROM must be the authenticated mailbox or an approved sending alias; do 
 SMTP attempts are deduplicated for 24 hours in process memory, including uncertain failures. A timed-out attempt should be checked in the mailbox before creating a new inquiry; process restarts/multiple instances do not guarantee exactly-once delivery. Shared durable deduplication is needed when scaling.
 11 API/server tests pass with mocked delivery. Credentials and actual inbox verification remain pending.
 Official setup: https://support.google.com/a/answer/9003945
+
+## Google Forms → private Google Sheet (prepared November 16, 2026)
+
+`src/contact-config.json` can select a Google Forms respondent URL for the
+existing `/contact/` page. Use the full `https://docs.google.com/forms/d/.../viewform`
+URL (not an edit link, shortened URL or spreadsheet URL). An empty or invalid
+value preserves the existing contact fallback. The response spreadsheet must
+remain private and must never be added to public frontend configuration.
+
+The embedded Google Form handles validation, submission and confirmation itself;
+the website does not infer success from iframe load events or cross-origin
+requests. A direct link remains visible above the embed for browser restrictions.
+The reusable QR images in `public/assets/contact/blux-contact-qr.{png,svg}` point
+to `https://bluxlabs.com/contact/`, not to the private response spreadsheet.
+
+Before enabling/deploying: publish the actual form, check that external visitors
+can respond without a work account, link it to the approved work-owned response
+spreadsheet, turn off public response summaries and response receipts unless
+approved, and verify a clearly identified test inquiry appears in the Sheet.
+An embedded form does not inherit the old Node API's rate limiting or honeypot.
+Do not claim equivalent anti-spam protections; assess Google Forms settings and
+monitor for unwanted submissions without exposing responses publicly.
+
+The published respondent form is configured in `src/contact-config.json`.
+The public Sheet is not exposed. Live submission-to-Sheet verification must be
+performed separately; local tests do not submit any inquiry.
