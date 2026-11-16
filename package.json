@@ -11,7 +11,7 @@
     "test:api": "node --test tests/contact.test.mjs",
     "test:motion": "node --test tests/page-motion.test.mjs tests/facet-entry.test.mjs tests/inner-pages.test.mjs",
     "start": "node server/node.mjs",
-    "test:contact-form": "node --test tests/contact-form.test.mjs"
+    "test:contact-form": "node --test tests/contact-form.test.mjs tests/profile-name.test.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "5.0.4",

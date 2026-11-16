@@ -25,9 +25,9 @@
       "portrait": "/assets/people/albert-zhang-golden-gate-20261108.jpg"
     },
     {
-      "name": "Even Li",
+      "name": "Hancheng Tong",
       "role": "CTO",
-      "bio": "even li is an independent researcher with blux and the oprain Foundation. He maps a scaling-law continuum across computational algorithms, probe-protein optimization, and optical hardware, bridging multi-channel EEG to voltage-probe readout. Motivated by frustration with human cognitive limits, his work targets an optical BCI -external cortex system (enabled by the self driving lab), with whole-brain simulation, Dyson swarms, and von Neumann probes to follow. His goal is to multiply collaboration efficiency, advance humanity toward recursive self-improvement, and ultimately build a post-scarcity society.",
+      "bio": "Hancheng Tong is an independent researcher with blux and the oprain Foundation. He maps a scaling-law continuum across computational algorithms, probe-protein optimization, and optical hardware, bridging multi-channel EEG to voltage-probe readout. Motivated by frustration with human cognitive limits, his work targets an optical BCI -external cortex system (enabled by the self driving lab), with whole-brain simulation, Dyson swarms, and von Neumann probes to follow. His goal is to multiply collaboration efficiency, advance humanity toward recursive self-improvement, and ultimately build a post-scarcity society.",
       "portrait": "/assets/people/even-li-brain-20261020.jpg"
     },
     {
@@ -52,7 +52,7 @@
   ],
   "statements": [
     {
-      "author": "Even Li",
+      "author": "Hancheng Tong",
       "title": "Make Cognitive Enhancement a Public Road",
       "intro": "Machine intelligence is compounding exponentially while human cognitive enhancement has barely begun. I argue that enhancement must happen within people, not only in machines, and that how its gains are distributed is the defining question of this century: cognitive advantage, once monopolized, hardens into permanent power. Openness and oversight fail unless people are smart enough to use them, so making more people smarter is a precondition for keeping power in check. My work aims to build the gateways of cognitive enhancement into public roads, on the way to a post-scarcity, Kardashev-scale future.",
       "body": [
