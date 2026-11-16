@@ -23,11 +23,14 @@ test('contact form renders after the actual Vite base-link transform', async () 
   const {renderToString} = await import('react-dom/server');
   const server = await createServer({server:{middlewareMode:true,hmr:false},appType:'custom'});
   try {
-    const {GoogleContactForm} = await server.ssrLoadModule('/src/GoogleContactForm.jsx');
+    const {GoogleContactForm, GoogleContactPage} = await server.ssrLoadModule('/src/GoogleContactForm.jsx');
     const links = googleFormLinks('https://docs.google.com/forms/d/e/TEST_ONLY/viewform');
     const markup = renderToString(React.createElement(GoogleContactForm, {links}));
     assert.match(markup, /Blux contact inquiry form/);
-    assert.match(markup, /blux-contact-qr\.svg/);
+    const page = renderToString(React.createElement(GoogleContactPage, {links, onWeChat:()=>{}}));
+    assert.match(page, /blux-contact-qr\.svg/);
+    assert.ok(page.indexOf('<iframe') < page.indexOf('contact-secondary'), 'Form precedes secondary links for mobile reading order');
+    assert.ok(markup.indexOf('<iframe') < markup.indexOf('contact-privacy'), 'Form precedes supporting copy');
     assert.match(markup, /Open form in a new tab/);
     assert.doesNotMatch(markup, /spreadsheets\/d\//);
   } finally {
